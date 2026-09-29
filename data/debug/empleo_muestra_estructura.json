@@ -1,0 +1,43 @@
+{
+ "bytes": 151604,
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "WebPage",
+   "description": "Browse current job openings at Opendoor. Find roles in engineering, product, operations, and more — and help transform how people buy and sell homes.",
+   "isPartOf": {
+    "@id": "https://www.opendoor.com/#website",
+    "@type": "WebSite",
+    "name": "Opendoor",
+    "url": "https://www.opendoor.com"
+   },
+   "name": "Open Positions at Opendoor | Join Our Team",
+   "publisher": {
+    "@id": "https://www.opendoor.com/#organization",
+    "@type": "Organization",
+    "legalName": "Opendoor Technologies Inc.",
+    "logo": "https://www.opendoor.com/logo.svg",
+    "name": "Opendoor",
+    "sameAs": [
+     "https://en.wikipedia.org/wiki/Opendoor",
+     "https://investor.opendoor.com/",
+     "https://x.com/opendoor",
+     "https://www.facebook.com/OpendoorHQ",
+     "https://www.instagram.com/opendoor",
+     "https://www.tiktok.com/@opendoorhq",
+     "https://www.linkedin.com/company/opendoor-com",
+     "https://www.zillow.com/profile/odhomes",
+     "https://www.realtor.com/realestateagency/665df6954978295d265cf980",
+     "https://www.trustpilot.com/review/opendoor.com",
+     "https://www.youtube.com/c/Opendoor",
+     "https://www.threads.com/@opendoor"
+    ],
+    "url": "https://www.opendoor.com"
+   },
+   "url": "https://www.opendoor.com/careers/open-positions"
+  }
+ ],
+ "rutas_json": [],
+ "scripts_json_attrs": [],
+ "texto_plano_inicio": " Open Positions at Opendoor | Join Our Team | Opendoor Opendoor Sell Buy Agents Mortgage Sign in Open positions We're looking for teammates Department All Departments Business Analytics & Development Finance Growth & Marketing Legal Open Services Operations People Pricing Research & Development Sales & Partnership Office All Offices Duluth, GA Miami, FL Phoenix, AZ Seattle, WA Tempe, AZ Toronto, Canada Business Analytics & Development Head of Mortgage Operations Tempe, AZ Head of Mortgage Operations Miami, FL Finance Payroll and Equity Analyst Phoenix, AZ · Toronto, Canada Senior Tax Manager Toronto, Canada Sr. Accountant Toronto, Canada Sr. Accountant Phoenix, AZ Growth & Marketing Marketing Manager, Lifecycle Miami, FL · Phoenix, AZ · Toronto, Canada Sr. Manager, Performance Marketing Miami, FL · Phoenix, AZ · Toronto, Canada Sr. Manager, SEO Miami, FL · Tempe, AZ · Toronto, Canada Legal Compliance Manager, Mortgage Miami, FL · Tempe, AZ Open Services Escrow Support Specialist - Kickoff OS National Duluth, GA Operations Homes Project Manager - Central Renovations Team Miami, FL Operations Specialist Phoenix, AZ · Tempe, AZ Operations Specialist Toronto, Canada Workplace Specialist Miami, FL People People Analytics & Automation Specialist Miami, FL People Analytics & Automation Specialist Toronto, Canada Pricing Portfolio Manager Tempe, AZ Pricing Analyst Phoenix, AZ Research & Development Agentic Analytics Engineer Toronto, Canada Agentic Analytics Engineer Miami, FL Application Security Engineer Toronto, Canada Application Security Engineer Miami, FL Applied Scientist AI/ML Toronto, Canada Applied Scientist AI/ML Miami, FL Applied Scientist AI/ML Seattle, WA Applied Scientist- Pricing Toronto, Canada Applied Scientist- Pricing Seattle, WA Applied Scientist- Pricing Miami, FL Data Scientist Seattle, WA Enterprise Security Engineer Miami, FL Enterprise Security Engineer Toronto, Canada Information Systems Engineer Toronto, Canada Infrastructure Security Engineer Toronto, Canada Infrastructure Security Engineer Miami, FL IT Support Technician Toronto, Canada IT Support Technician Miami, FL Machine Learning Engineer Miami, FL · Seattle, WA · Toronto, Canada Software Engineer Toronto, Canada Software Engineer Miami, FL Sales & Partnership Account Executive - Home Sales Advisor Miami, FL Customer Experience Specialist Tempe, AZ Customer Experience Specialist Miami, FL Listing Partner Miami, FL · Phoenix, AZ Transaction Coordinator Phoenix, AZ The better way to buy and sell Want to learn more? Ask AI for a summary of Opendoor and how we can help you sell your home. Products All Cash offer Cash Now More Later Sell to buy your next home Get a mortgage Home value estimator Home sale calculator Browse homes Drops Partners Everything for agents Your client sells Your client buys How it works for agents Brokers & Teams Builders Business partnerships Vendors About Company News Contact Investors Careers Brokerages FAQs Stories Reviews Terms & Privacy Trust and safety Terms of service Privacy policy Notice at collection Do not sell or share my personal information Avoiding rental scams Still have questions? Visit the Help Center Get the app Browse housing markets States and popular metros States Alabama Arizona Arkansas California Colorado Connecticut Delaware Florida Georgia Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana Nebraska Nevada New Hampshire New Jersey New Mexico New York North Carolina North Dakota Ohio Oklahoma Oregon Pennsylvania Rhode Island South Carolina South Dakota Tennessee Texas Utah Vermont Virginia Washington West Virginia Wisconsin Wyoming Popular metros Houston Las Vegas San Antonio Dallas San Diego Oklahoma City Los Angeles Jacksonville Philadelphia Austin Raleigh Portland Sacramento Indianapolis Charlotte Detroit Seattle Memphis Corpus Christi Pittsburgh Atlanta Phoenix Kansas City Washington, DC Miami Tucson Denver San Francisco Bay Area Orlando Minneapolis CA: Opendoor Brokerage Inc. DRE #02061130 NY: Licensed as Opendoor Brokerage LLC , Fair Housing Notice TX: TREC Information About Brokerage Services , TREC Consumer Protection Notice Opendoor Labs Inc. is dedicated to improving the accessibility of its Website and we view accessibility as a continually ongoing effort. Please contact us at support@opendoor.com with any support needs, feedback or suggestions. © 2026 Opendoor | All rights reserved. "
+}

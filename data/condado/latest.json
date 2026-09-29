@@ -1,0 +1,617 @@
+{
+ "aviso": "Registros publicos de los condados. El catastro va con ~2 semanas de retraso sobre el registro. Hipotecas de Opendoor Home Loans: solo Maricopa, no es el volumen nacional. Margen bruto = venta - compra, sin reformas, comisiones ni costes de tenencia. Texas no publica precios de venta.",
+ "condados": [
+  {
+   "altas": null,
+   "bajas": null,
+   "casas": 293,
+   "ciudad": "Phoenix",
+   "dias_en_cartera_mediana": 90,
+   "estado": "AZ",
+   "historial": [
+    [
+     "2026-09-29",
+     293
+    ]
+   ],
+   "id": "maricopa_az",
+   "mas_de_90_dias_pct": 49.5,
+   "nombre": "Maricopa",
+   "ok": true,
+   "ultima_fecha": "2026-09-16"
+  },
+  {
+   "altas": null,
+   "bajas": null,
+   "casas": 65,
+   "ciudad": "Tucson",
+   "dias_en_cartera_mediana": null,
+   "estado": "AZ",
+   "historial": [
+    [
+     "2026-09-29",
+     65
+    ]
+   ],
+   "id": "pima_az",
+   "mas_de_90_dias_pct": null,
+   "nombre": "Pima",
+   "ok": true,
+   "ultima_fecha": null
+  },
+  {
+   "altas": null,
+   "bajas": null,
+   "casas": 164,
+   "ciudad": "Houston",
+   "dias_en_cartera_mediana": 178.5,
+   "estado": "TX",
+   "historial": [
+    [
+     "2026-09-29",
+     164
+    ]
+   ],
+   "id": "harris_tx",
+   "mas_de_90_dias_pct": 94.5,
+   "nombre": "Harris",
+   "ok": true,
+   "ultima_fecha": "2026-07-21"
+  },
+  {
+   "altas": null,
+   "bajas": null,
+   "casas": 96,
+   "ciudad": "Dallas norte",
+   "dias_en_cartera_mediana": 94.5,
+   "estado": "TX",
+   "historial": [
+    [
+     "2026-09-29",
+     96
+    ]
+   ],
+   "id": "collin_tx",
+   "mas_de_90_dias_pct": 54.2,
+   "nombre": "Collin",
+   "ok": true,
+   "ultima_fecha": "2026-09-08"
+  },
+  {
+   "altas": null,
+   "bajas": null,
+   "casas": 62,
+   "ciudad": "Dallas norte",
+   "dias_en_cartera_mediana": null,
+   "estado": "TX",
+   "historial": [
+    [
+     "2026-09-29",
+     62
+    ]
+   ],
+   "id": "denton_tx",
+   "mas_de_90_dias_pct": null,
+   "nombre": "Denton",
+   "ok": true,
+   "ultima_fecha": null
+  },
+  {
+   "altas": null,
+   "bajas": null,
+   "casas": 32,
+   "ciudad": "Austin norte",
+   "dias_en_cartera_mediana": null,
+   "estado": "TX",
+   "historial": [
+    [
+     "2026-09-29",
+     32
+    ]
+   ],
+   "id": "williamson_tx",
+   "mas_de_90_dias_pct": null,
+   "nombre": "Williamson",
+   "ok": true,
+   "ultima_fecha": null
+  },
+  {
+   "altas": null,
+   "bajas": null,
+   "casas": 17,
+   "ciudad": "Houston sur",
+   "dias_en_cartera_mediana": null,
+   "estado": "TX",
+   "historial": [
+    [
+     "2026-09-29",
+     17
+    ]
+   ],
+   "id": "fortbend_tx",
+   "mas_de_90_dias_pct": null,
+   "nombre": "Fort Bend",
+   "ok": true,
+   "ultima_fecha": null
+  }
+ ],
+ "errores": {},
+ "fecha": "2026-09-29",
+ "llamadas": {
+  "collin_tx": 1,
+  "denton_tx": 1,
+  "fortbend_tx": 1,
+  "harris_tx": 1,
+  "maricopa_az": 1,
+  "maricopa_catastro": 53,
+  "maricopa_registro": 1034,
+  "pima_az": 1,
+  "williamson_tx": 1
+ },
+ "maricopa": {
+  "anuncios_vs_titulo": {
+   "anuncios_maricopa": 195,
+   "cartera_sin_anunciar": 126,
+   "cartera_total": 293,
+   "clases": {
+    "comprada_reciente": 17,
+    "en_cartera": 167,
+    "sin_parcela": 2,
+    "sin_titulo_od": 9
+   },
+   "comprobados": 195,
+   "consultas_hoy": 29,
+   "nota": "Anuncios de Arizona con CP 850/852/853 (aprox. Maricopa). 'en_cartera': la parcela es de Opendoor en el catastro. 'comprada_reciente': el catastro aun no lo refleja pero hay una escritura reciente de Opendoor con el dueno anterior. 'sin_titulo_od': Opendoor la anuncia pero los registros no la ponen a su nombre (posible venta por cuenta del propietario, o escritura aun no indexada). Retraso del catastro: ~2 semanas.",
+   "pct_titulo_od": 95.3
+  },
+  "cartera": {
+   "ano_mediana": 2002.0,
+   "casas": 293,
+   "ciudades": {
+    "Avondale": 4,
+    "Buckeye": 22,
+    "Chandler": 16,
+    "El Mirage": 6,
+    "Gilbert": 27,
+    "Glendale": 15,
+    "Goodyear": 11,
+    "Mesa": 32,
+    "Peoria": 24,
+    "Phoenix": 67,
+    "Scottsdale": 14,
+    "Surprise": 23
+   },
+   "coste_base": 265,
+   "coste_total": 127500530,
+   "dias_en_cartera_mediana": 90,
+   "mas_de_90_dias_pct": 49.5,
+   "por_entidad": {
+    "OPENDOOR LLC": 1,
+    "OPENDOOR PROPERTY C LLC": 3,
+    "OPENDOOR PROPERTY D LLC": 1,
+    "OPENDOOR PROPERTY J LLC": 61,
+    "OPENDOOR PROPERTY TRUST I": 227
+   },
+   "precio_compra_mediana": 427200,
+   "precio_compra_sqft_mediana": 240,
+   "precio_sobre_valor_fiscal": 1.143,
+   "reparto_dias_en_cartera": {
+    "0-30": 31,
+    "181-365": 21,
+    "31-60": 68,
+    "365+": 12,
+    "61-90": 49,
+    "91-180": 112
+   },
+   "reparto_precio": {
+    "250-300k": 16,
+    "300-400k": 85,
+    "400-500k": 76,
+    "500-750k": 59,
+    "750k+": 21,
+    "<250k": 8
+   },
+   "retraso_catastro_dias": 13,
+   "sqft_mediana": 1892.0,
+   "ultima_escritura_catastro": "2026-09-16"
+  },
+  "hipotecas_ohl": {
+   "attach_pct": 8.3,
+   "en_casas_de_opendoor": 9,
+   "liberaciones_cartera_antigua": 12,
+   "lista": [
+    {
+     "f": "2026-09-25",
+     "od": false,
+     "pg": 28,
+     "rn": "20260562397"
+    },
+    {
+     "f": "2026-09-04",
+     "od": true,
+     "pg": 23,
+     "rn": "20260523636"
+    },
+    {
+     "f": "2026-08-31",
+     "od": true,
+     "pg": 23,
+     "rn": "20260514670"
+    },
+    {
+     "f": "2026-08-21",
+     "od": true,
+     "pg": 23,
+     "rn": "20260497090"
+    },
+    {
+     "f": "2026-08-20",
+     "od": true,
+     "pg": 26,
+     "rn": "20260494091"
+    },
+    {
+     "f": "2026-08-13",
+     "od": true,
+     "pg": 25,
+     "rn": "20260480332"
+    },
+    {
+     "f": "2026-08-11",
+     "od": true,
+     "pg": 20,
+     "rn": "20260473238"
+    },
+    {
+     "f": "2026-08-07",
+     "od": true,
+     "pg": 23,
+     "rn": "20260469762"
+    },
+    {
+     "f": "2026-07-29",
+     "od": true,
+     "pg": 23,
+     "rn": "20260448453"
+    },
+    {
+     "f": "2026-07-15",
+     "od": true,
+     "pg": 23,
+     "rn": "20260422607"
+    }
+   ],
+   "primera": "2026-07-15",
+   "total_desde_relanzamiento": 10,
+   "ultimos_30d": 3,
+   "ventas_od_con_ohl": 9,
+   "ventas_od_desde_primera": 108
+  },
+  "osn": {
+   "fiduciario_90d": 2,
+   "otros_90d": 2
+  },
+  "registro": {
+   "desde": "2026-01-01",
+   "documentos": 956,
+   "meses": [
+    {
+     "m": "2004-03",
+     "p_compra": null,
+     "p_venta": null,
+     "pendientes": 1
+    },
+    {
+     "m": "2015-03",
+     "p_compra": null,
+     "p_venta": 405000,
+     "ventas": 1
+    },
+    {
+     "compras": 1,
+     "m": "2015-07",
+     "p_compra": 387500,
+     "p_venta": null
+    },
+    {
+     "compras": 4,
+     "liberaciones_ohl": 2,
+     "m": "2026-01",
+     "osn_fiduciario": 1,
+     "osn_otros": 3,
+     "p_compra": 678188,
+     "p_venta": 445300,
+     "pendientes": 30,
+     "ventas": 14
+    },
+    {
+     "compras": 1,
+     "m": "2026-02",
+     "osn_otros": 4,
+     "p_compra": 302000,
+     "p_venta": 382000,
+     "pendientes": 33,
+     "ventas": 29
+    },
+    {
+     "compras": 11,
+     "liberaciones_ohl": 2,
+     "m": "2026-03",
+     "osn_otros": 1,
+     "p_compra": 528900,
+     "p_venta": 396000,
+     "pendientes": 49,
+     "ventas": 28
+    },
+    {
+     "compras": 19,
+     "internas": 1,
+     "liberaciones_ohl": 2,
+     "m": "2026-04",
+     "osn_otros": 1,
+     "p_compra": 515000,
+     "p_venta": 411000,
+     "pendientes": 56,
+     "ventas": 35
+    },
+    {
+     "compras": 34,
+     "liberaciones_ohl": 2,
+     "m": "2026-05",
+     "osn_otros": 4,
+     "p_compra": 437900,
+     "p_venta": 377000,
+     "pendientes": 39,
+     "ventas": 42
+    },
+    {
+     "compras": 60,
+     "m": "2026-06",
+     "osn_otros": 4,
+     "p_compra": 434850,
+     "p_venta": 397500,
+     "pendientes": 20,
+     "ventas": 58
+    },
+    {
+     "compras": 55,
+     "hipotecas_ohl": 2,
+     "m": "2026-07",
+     "p_compra": 386900,
+     "p_venta": 366000,
+     "pendientes": 9,
+     "ventas": 57,
+     "ventas_ohl": 2
+    },
+    {
+     "compras": 68,
+     "hipotecas_ohl": 6,
+     "liberaciones_ohl": 2,
+     "m": "2026-08",
+     "osn_fiduciario": 2,
+     "osn_otros": 1,
+     "p_compra": 415000,
+     "p_venta": 410850,
+     "pendientes": 2,
+     "ventas": 45,
+     "ventas_ohl": 6
+    },
+    {
+     "compras": 24,
+     "hipotecas_ohl": 2,
+     "liberaciones_ohl": 2,
+     "m": "2026-09",
+     "osn_otros": 1,
+     "p_compra": 427200,
+     "p_venta": 642500,
+     "pendientes": 42,
+     "ventas": 20,
+     "ventas_ohl": 1
+    }
+   ],
+   "semanas": [
+    {
+     "compras": 5,
+     "pendientes": 16,
+     "s": "2026-03-30",
+     "ventas": 6
+    },
+    {
+     "compras": 3,
+     "liberaciones_ohl": 1,
+     "pendientes": 11,
+     "s": "2026-04-06",
+     "ventas": 10
+    },
+    {
+     "compras": 2,
+     "liberaciones_ohl": 1,
+     "pendientes": 15,
+     "s": "2026-04-13",
+     "ventas": 9
+    },
+    {
+     "compras": 1,
+     "pendientes": 8,
+     "s": "2026-04-20",
+     "ventas": 9
+    },
+    {
+     "compras": 10,
+     "internas": 1,
+     "osn_otros": 1,
+     "pendientes": 14,
+     "s": "2026-04-27",
+     "ventas": 9
+    },
+    {
+     "compras": 8,
+     "pendientes": 14,
+     "s": "2026-05-04",
+     "ventas": 6
+    },
+    {
+     "compras": 6,
+     "liberaciones_ohl": 1,
+     "osn_otros": 3,
+     "pendientes": 7,
+     "s": "2026-05-11",
+     "ventas": 6
+    },
+    {
+     "compras": 8,
+     "liberaciones_ohl": 1,
+     "osn_otros": 1,
+     "pendientes": 7,
+     "s": "2026-05-18",
+     "ventas": 8
+    },
+    {
+     "compras": 11,
+     "pendientes": 10,
+     "s": "2026-05-25",
+     "ventas": 17
+    },
+    {
+     "compras": 17,
+     "osn_otros": 2,
+     "pendientes": 6,
+     "s": "2026-06-01",
+     "ventas": 17
+    },
+    {
+     "compras": 7,
+     "pendientes": 6,
+     "s": "2026-06-08",
+     "ventas": 10
+    },
+    {
+     "compras": 14,
+     "osn_otros": 1,
+     "pendientes": 2,
+     "s": "2026-06-15",
+     "ventas": 10
+    },
+    {
+     "compras": 12,
+     "pendientes": 5,
+     "s": "2026-06-22",
+     "ventas": 15
+    },
+    {
+     "compras": 15,
+     "osn_otros": 1,
+     "pendientes": 2,
+     "s": "2026-06-29",
+     "ventas": 9
+    },
+    {
+     "compras": 14,
+     "pendientes": 1,
+     "s": "2026-07-06",
+     "ventas": 9
+    },
+    {
+     "compras": 10,
+     "hipotecas_ohl": 1,
+     "pendientes": 1,
+     "s": "2026-07-13",
+     "ventas": 13,
+     "ventas_ohl": 1
+    },
+    {
+     "compras": 11,
+     "pendientes": 2,
+     "s": "2026-07-20",
+     "ventas": 16
+    },
+    {
+     "compras": 15,
+     "hipotecas_ohl": 1,
+     "pendientes": 4,
+     "s": "2026-07-27",
+     "ventas": 16,
+     "ventas_ohl": 1
+    },
+    {
+     "compras": 12,
+     "hipotecas_ohl": 1,
+     "s": "2026-08-03",
+     "ventas": 10,
+     "ventas_ohl": 1
+    },
+    {
+     "compras": 17,
+     "hipotecas_ohl": 2,
+     "osn_fiduciario": 1,
+     "osn_otros": 1,
+     "pendientes": 2,
+     "s": "2026-08-10",
+     "ventas": 18,
+     "ventas_ohl": 2
+    },
+    {
+     "compras": 16,
+     "hipotecas_ohl": 2,
+     "s": "2026-08-17",
+     "ventas": 8,
+     "ventas_ohl": 2
+    },
+    {
+     "compras": 16,
+     "liberaciones_ohl": 2,
+     "osn_fiduciario": 1,
+     "s": "2026-08-24",
+     "ventas": 7
+    },
+    {
+     "compras": 11,
+     "hipotecas_ohl": 2,
+     "liberaciones_ohl": 1,
+     "s": "2026-08-31",
+     "ventas": 9,
+     "ventas_ohl": 2
+    },
+    {
+     "compras": 11,
+     "pendientes": 1,
+     "s": "2026-09-07",
+     "ventas": 11
+    },
+    {
+     "compras": 9,
+     "liberaciones_ohl": 1,
+     "osn_otros": 1,
+     "pendientes": 12,
+     "s": "2026-09-14",
+     "ventas": 2
+    },
+    {
+     "hipotecas_ohl": 1,
+     "pendientes": 29,
+     "s": "2026-09-21"
+    }
+   ],
+   "ultimos_90d": {
+    "compra": 147,
+    "hipoteca_ohl": 10,
+    "liberacion_ohl": 4,
+    "osn_fiduciario": 2,
+    "osn_liberacion": 1,
+    "osn_sustitucion": 1,
+    "otro_od": 3,
+    "otro_ohl": 1,
+    "traspaso": 53,
+    "venta": 122
+   }
+  },
+  "ventas_emparejadas": {
+   "con_perdida": 0,
+   "dias_mediana": null,
+   "lista": [],
+   "margen_bruto_pct_mediana": null,
+   "n": 0
+  }
+ },
+ "obtenido_utc": "2026-09-29T19:41:50+00:00"
+}
