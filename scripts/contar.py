@@ -52,12 +52,12 @@ from datetime import datetime, timezone, date, timedelta
 SITEMAP = "https://www.opendoor.com/sitemaps/listings.xml"
 CARRERAS = "https://www.opendoor.com/careers/open-positions"
 UA = ("opendoor-inventory-counter/3.0 (investigacion personal; 1 sitemap + "
-      "hasta 300 fichas de propiedad al dia; github.com/fernandoalvaropastor/Projects)")
+      "hasta 600 fichas de propiedad al dia; github.com/fernandoalvaropastor/Projects)")
 DATOS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 
-MAX_FICHAS_POR_DIA = 300
-PAUSA_ENTRE_FICHAS = float(os.environ.get("REGISTROS_PAUSA", "0.4"))  # segundos
-TOPE_MINUTOS_FICHAS = 25        # como mucho este tiempo visitando fichas
+MAX_FICHAS_POR_DIA = 600
+PAUSA_ENTRE_FICHAS = float(os.environ.get("REGISTROS_PAUSA", "0.3"))  # segundos
+TOPE_MINUTOS_FICHAS = 35        # como mucho este tiempo visitando fichas
 CORTACIRCUITOS = 20             # si las primeras N fichas fallan TODAS, se para
 
 # /properties/<Calle>-<Ciudad>-<ST>-<CP>/aid_<uuid>
@@ -75,7 +75,7 @@ EVENTOS = ("for sale|listed|relisted|withdrawn|delisted|expired|cancell?ed|"
            "price increase|price cut|price reduced|off market|coming soon")
 PATRON_EVENTO = re.compile(
     r"((?:" + MESES + r")[a-z]*\.? \d{1,2}, \d{4}|\d{1,2}/\d{1,2}/\d{4}|\d{4}-\d{2}-\d{2})"
-    r"\s*[-–|·:]?\s*(" + EVENTOS + r")\b\s*[-–|·:]?\s*(?:\$\s?([\d,]{4,9}))?",
+    r"\s*[-–|·:]?\s*(" + EVENTOS + r")\b\s*(?:[-–|·:]\s*[A-Z][A-Za-z0-9&]{1,20}\s*)?[-–|·:]?\s*(?:\$\s?([\d,]{4,9}))?",
     re.I)
 RETIRADAS = ("withdrawn", "delisted", "expired", "cancelled", "canceled", "off market")
 
@@ -252,8 +252,9 @@ def valor_escalar(v):
 # ----------------------------------------------------------------- fichas
 
 def extraer_ficha(cuerpo):
-    """Extrae todo lo que se pueda de una ficha. Devuelve None si no hay un
-    precio de lista fiable (en ese caso no se guarda nada de la ficha)."""
+    """Extrae todo lo que se pueda de una ficha. Devuelve un dict con precio de
+    lista, o un dict con estado_ficha='proximamente' (casa de Opendoor aun sin
+    precio), o None si la pagina no se puede interpretar."""
     try:
         texto = cuerpo.decode("utf-8", "ignore")
     except Exception:  # noqa: BLE001
@@ -304,12 +305,12 @@ def extraer_ficha(cuerpo):
                 r["precio_fuente"] = campo
                 break
 
-    if "precio_lista" not in r or not (20000 <= r["precio_lista"] <= 5000000):
-        return None
+    if "precio_lista" in r and not (20000 <= r["precio_lista"] <= 5000000):
+        r.pop("precio_lista", None)
 
     # --- resto de campos: primero texto, si no, JSON
     m = re.search(r"\$([\d,]{2,6})\s*/\s*sq\.?\s?ft", plano, re.I)
-    if m:
+    if m and r.get("precio_lista"):
         ppsf = a_int(m.group(1))
         if ppsf and 10 <= ppsf <= 2000:
             r["precio_por_sqft"] = ppsf
@@ -319,7 +320,8 @@ def extraer_ficha(cuerpo):
         s = a_int(m.group(1)) if m else a_int(encontrados.get("sqft_json"))
         if s and 300 <= s <= 15000:
             r["sqft"] = s
-            r["precio_por_sqft"] = round(r["precio_lista"] / s)
+            if r.get("precio_lista"):
+                r["precio_por_sqft"] = round(r["precio_lista"] / s)
 
     m = re.search(r"\$([\d,]{3,6})\s*/\s*mo(?:nth)?\b", plano, re.I)
     if m:
@@ -412,6 +414,38 @@ def extraer_ficha(cuerpo):
             if f:
                 r["fecha_listado_mls"] = f.isoformat()
 
+    # --- v3.1: casas "Available soon" (compradas por Opendoor, aun sin precio ni a la venta)
+    # Verificado el 29-sep-2026: la ficha dice "Price pending" y "Available soon", con el
+    # aviso de que esas casas son propiedad de Opendoor. Casi la mitad de las fichas sin
+    # precio de la v2 eran de este tipo.
+    proxima = bool(re.search(r"\bprice pending\b", plano, re.I)) or (
+        "precio_lista" not in r and bool(re.search(r"\bavailable soon\b", plano, re.I)))
+    if proxima:
+        r["estado_ficha"] = "proximamente"
+        r.pop("precio_lista", None)
+        r.pop("precio_estimado", None)
+        previsto = [ev for ev in unicos if ev["e"] == "coming soon" and ev.get("p")]
+        if previsto:
+            r["precio_previsto"] = previsto[0]["p"]
+            r["fecha_proximamente"] = previsto[0]["f"]
+        return r
+
+    # --- si no hay precio con el "below list", el ultimo precio del historial de venta
+    if "precio_lista" not in r and unicos:
+        hoy_d = date.today()
+        for ev in unicos:
+            if ev["e"] in ("for sale", "listed", "relisted", "price change", "price decrease",
+                           "price increase", "price cut", "price reduced") and ev.get("p"):
+                if (hoy_d - date.fromisoformat(ev["f"])).days <= 400 and 20000 <= ev["p"] <= 5000000:
+                    r["precio_lista"] = ev["p"]
+                    r["precio_estimado"] = False
+                    r["precio_fuente"] = "historial"
+                break
+    if "precio_lista" not in r:
+        return None
+    if r.get("sqft") and not r.get("precio_por_sqft"):
+        r["precio_por_sqft"] = round(r["precio_lista"] / r["sqft"])
+    r.setdefault("estado_ficha", "en_venta")
     return r
 
 
@@ -608,11 +642,19 @@ def anadir_csv(nombre, cabecera, filas, fecha):
             f.write(l + "\n")
 
 
-def elegir_para_precio(registro, ids_hoy, nuevos_hoy, maximo):
+def elegir_para_precio(registro, ids_hoy, nuevos_hoy, maximo, hoy=None):
+    """Orden: lo nuevo de hoy; lo nunca comprobado; las 'Available soon' que llevan
+    3+ dias sin mirarse (para cazar el dia en que salen a la venta); y el resto,
+    de la comprobacion mas antigua a la mas reciente."""
     nuevas = list(nuevos_hoy)
-    resto = [aid for aid in ids_hoy if aid not in nuevos_hoy]
+    nunca = [a for a in ids_hoy if a not in nuevos_hoy and not registro[a].get("precio_comprobado")]
+    limite = (date.fromisoformat(hoy) - timedelta(days=3)).isoformat() if hoy else "0000-00-00"
+    proximas = [a for a in ids_hoy if a not in nuevos_hoy and registro[a].get("estado_ficha") == "proximamente"
+                and (registro[a].get("precio_comprobado") or "") <= limite]
+    ya = set(nuevas) | set(nunca) | set(proximas)
+    resto = [a for a in ids_hoy if a not in ya]
     resto.sort(key=lambda aid: registro[aid].get("precio_comprobado") or "0000-00-00")
-    return (nuevas + resto)[:maximo]
+    return (nuevas + nunca + proximas + resto)[:maximo]
 
 
 def lunes(d):
@@ -726,17 +768,17 @@ def main():
     lastmod_hoy = sum(1 for p in unicas.values() if p["lastmod"][:10] == hoy)
 
     # ------------------------------------------------ fichas (protegido)
-    consultadas = con_precio = errores = recortes_hoy = 0
+    consultadas = con_precio = errores = recortes_hoy = proximas_hoy = a_venta_hoy = 0
     cortes_hoy_pct = []
     bloqueado = False
     try:
-        objetivo = elegir_para_precio(registro, ids_hoy, nuevos, MAX_FICHAS_POR_DIA)
+        objetivo = elegir_para_precio(registro, ids_hoy, nuevos, MAX_FICHAS_POR_DIA, hoy)
         t0 = time.time()
         for aid in objetivo:
             if time.time() - t0 > TOPE_MINUTOS_FICHAS * 60:
                 print(f"Tope de {TOPE_MINUTOS_FICHAS} min en fichas: se sigue manana.")
                 break
-            if consultadas >= CORTACIRCUITOS and con_precio == 0 and errores == consultadas:
+            if consultadas >= CORTACIRCUITOS and con_precio == 0 and proximas_hoy == 0 and errores == consultadas:
                 bloqueado = True
                 print(f"Cortacircuitos: las primeras {consultadas} fichas fallaron todas. "
                       f"Codigos: {dict(CODIGOS_HTTP)}")
@@ -755,9 +797,33 @@ def main():
             datos = extraer_ficha(cuerpo)
             if datos is None:
                 errores += 1
+                if errores <= 3:
+                    guardar_debug(f"ficha_rara_{errores}", cuerpo, hoy)
+                time.sleep(PAUSA_ENTRE_FICHAS)
+                continue
+            if datos.get("estado_ficha") == "proximamente":
+                proximas_hoy += 1
+                if r.get("estado_ficha") != "proximamente" or not r.get("proximamente_desde"):
+                    r["proximamente_desde"] = datos.get("fecha_proximamente") or hoy
+                r["estado_ficha"] = "proximamente"
+                r.pop("precio_lista", None)
+                for campo in ("precio_previsto", "fecha_proximamente", "historial", "sqft",
+                              "habitaciones", "banos", "ano_construccion", "tipo_casa"):
+                    if campo in datos:
+                        r[campo] = datos[campo]
+                if guardar_debug and proximas_hoy == 1:
+                    guardar_debug("ficha_proximamente", cuerpo, hoy)
                 time.sleep(PAUSA_ENTRE_FICHAS)
                 continue
             con_precio += 1
+            if r.get("estado_ficha") == "proximamente":
+                # sale a la venta hoy: fin de la fase "Available soon"
+                a_venta_hoy += 1
+                r["salio_a_venta"] = hoy
+                try:
+                    r["dias_proximamente"] = (d_hoy - date.fromisoformat(r.get("proximamente_desde") or hoy)).days
+                except Exception:  # noqa: BLE001
+                    pass
             anterior = r.get("precio_lista")
             if anterior is not None and datos["precio_lista"] < anterior:
                 r["recortes"] = r.get("recortes", 0) + 1
@@ -783,7 +849,8 @@ def main():
               "El recuento principal se guarda igual.")
 
     # ------------------------------------------------ agregados de precio
-    con_datos = [registro[aid] for aid in ids_hoy if registro[aid].get("precio_lista")]
+    con_datos = [registro[aid] for aid in ids_hoy if registro[aid].get("precio_lista")
+                 and registro[aid].get("estado_ficha") != "proximamente"]
     precios = [r["precio_lista"] for r in con_datos]
     ppsf_l = [r["precio_por_sqft"] for r in con_datos if r.get("precio_por_sqft")]
     pagos = [r["pago_estimado_mes"] for r in con_datos if r.get("pago_estimado_mes")]
@@ -838,6 +905,44 @@ def main():
                      "El precio de venta que ensena Opendoor ya lleva su descuento "
                      "estandar del 1% sobre el precio de lista; aqui se deshace ese "
                      "descuento para dar el precio de lista real. Ese 1% NO es un recorte."),
+        }
+
+    # ------------------------------------------------ v3.1: a la venta vs "Available soon"
+    activas_r = [registro[a] for a in ids_hoy]
+    def clase_de(r):
+        e = r.get("estado_ficha")
+        if e in ("proximamente", "pendiente"):
+            return e
+        if r.get("precio_lista"):
+            return "en_venta"
+        return None
+    clases_act = Counter(c for c in (clase_de(r) for r in activas_r) if c)
+    n_clas = sum(clases_act.values())
+    d30s = (d_hoy - timedelta(days=30)).isoformat()
+    pasos = [r for r in registro.values() if (r.get("salio_a_venta") or "") > d30s]
+    prox_r = [r for r in activas_r if r.get("estado_ficha") == "proximamente"]
+    clasificacion = None
+    if n_clas:
+        cuota = clases_act.get("proximamente", 0) / n_clas
+        clasificacion = {
+            "clasificadas": n_clas,
+            "cobertura_pct": round(n_clas / len(unicas) * 100, 1),
+            "en_venta": clases_act.get("en_venta", 0),
+            "proximamente": clases_act.get("proximamente", 0),
+            "pendiente": clases_act.get("pendiente", 0),
+            "proximamente_pct": round(cuota * 100, 1),
+            "proximamente_estimadas": round(cuota * len(unicas)),
+            "en_venta_estimadas": round((1 - cuota) * len(unicas)),
+            "proximamente_por_estado": dict(Counter(r.get("estado") for r in prox_r).most_common(12)),
+            "precio_previsto_mediana": mediana([r.get("precio_previsto") for r in prox_r if r.get("precio_previsto")]),
+            "vistas_hoy": proximas_hoy,
+            "a_venta_hoy": a_venta_hoy,
+            "a_venta_30d": len(pasos),
+            "dias_proximamente_mediana": mediana([r.get("dias_proximamente") for r in pasos
+                                                  if r.get("dias_proximamente") is not None]),
+            "nota": ("'Available soon': casas que ya son de Opendoor (lo dice la propia ficha) pero "
+                     "aun sin precio ni a la venta, normalmente en reforma. Estan en el sitemap. "
+                     "Las estimadas extrapolan la proporcion de las fichas ya leidas al total."),
         }
 
     # ------------------------------------------------ salidas acumuladas y cohortes
@@ -909,6 +1014,7 @@ def main():
         "edad_salidas_30d": reparto(edades_salida_30, TRAMOS_EDAD) if edades_salida_30 else None,
         "cohortes": cohortes,
         "precios": resumen_precios,
+        "clasificacion": clasificacion,
         "empleo": empleo,
         "aviso": ("Conteo propio sobre el sitemap publico de Opendoor. Solo ve lo que esta "
                   "anunciado a la venta: no ve lo comprado y aun sin listar ni lo que esta "
@@ -951,6 +1057,10 @@ def main():
     print(f"fichas: consultadas={consultadas}  con_precio={con_precio}  errores={errores}  "
           f"codigos={dict(CODIGOS_HTTP)}  cobertura_total={len(con_datos)}/{len(unicas)}"
           + (f"  precio_medio=${resumen_precios['precio_medio']:,}" if resumen_precios else ""))
+    if clasificacion:
+        print(f"clasificacion: {clasificacion['en_venta']} a la venta, {clasificacion['proximamente']} available soon, "
+              f"{clasificacion['pendiente']} pendientes ({clasificacion['proximamente_pct']}% proximamente, "
+              f"~{clasificacion['proximamente_estimadas']} en total); {a_venta_hoy} salieron a la venta hoy")
     if empleo:
         print(f"empleo: total={empleo.get('total')}  metodo={empleo.get('metodo')}  claves={empleo.get('claves')}")
     if consultadas and con_precio == 0:
