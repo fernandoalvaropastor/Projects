@@ -17,6 +17,7 @@ concurrency:
 jobs:
   contar:
     runs-on: ubuntu-latest
+    timeout-minutes: 100
     steps:
       - uses: actions/checkout@v4
 
@@ -24,10 +25,17 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Contar el inventario publicado
+      - name: 1 · Contar el inventario publicado (sitemap, fichas, empleo)
         run: python scripts/contar.py
 
+      - name: 2 · Registros publicos de los condados y panel
+        # Si un condado falla, no se pierde el recuento del paso 1.
+        continue-on-error: true
+        timeout-minutes: 60
+        run: python scripts/registros.py
+
       - name: Guardar el resultado en el repositorio
+        if: always()
         run: |
           git config user.name  "contador"
           git config user.email "contador@users.noreply.github.com"
@@ -35,6 +43,8 @@ jobs:
           if git diff --staged --quiet; then
             echo "Sin cambios que guardar."
           else
-            git commit -m "Inventario $(date -u +%Y-%m-%d)"
+            git commit -m "Inventario y registros $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash || true
             git push
           fi
+
