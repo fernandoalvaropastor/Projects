@@ -10,5 +10,17 @@
   "ohl_total": 10,
   "pima_az": 65,
   "williamson_tx": 32
+ },
+ {
+  "cartera_maricopa": 292,
+  "collin_tx": 96,
+  "denton_tx": 62,
+  "f": "2026-09-30",
+  "fortbend_tx": 17,
+  "harris_tx": 164,
+  "maricopa_az": 292,
+  "ohl_total": 10,
+  "pima_az": 66,
+  "williamson_tx": 32
  }
 ]

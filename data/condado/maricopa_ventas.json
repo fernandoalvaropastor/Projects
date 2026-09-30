@@ -1,1 +1,28 @@
-[]
+[
+ {
+  "apn": "30917572",
+  "ciudad": "Gilbert",
+  "compra_f": "2026-07-10",
+  "compra_p": 386900,
+  "cp": "85296",
+  "detectada": "2026-09-30",
+  "dias": 68,
+  "sqft": 1468,
+  "venta_escritura": "20260544825",
+  "venta_f": "2026-09-16",
+  "venta_p": null
+ },
+ {
+  "apn": "50066239",
+  "ciudad": "Tolleson",
+  "compra_f": "2026-05-13",
+  "compra_p": 510000,
+  "cp": "85353",
+  "detectada": "2026-09-30",
+  "dias": 125,
+  "sqft": 2620,
+  "venta_escritura": "20260542384",
+  "venta_f": "2026-09-15",
+  "venta_p": null
+ }
+]
