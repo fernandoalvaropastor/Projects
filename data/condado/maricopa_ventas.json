@@ -24,5 +24,31 @@
   "venta_escritura": "20260542384",
   "venta_f": "2026-09-15",
   "venta_p": null
+ },
+ {
+  "apn": "30458110",
+  "ciudad": "Gilbert",
+  "compra_f": "2026-06-18",
+  "compra_p": 465300,
+  "cp": "85297",
+  "detectada": "2026-10-02",
+  "dias": 91,
+  "sqft": 1398,
+  "venta_escritura": "20260546234",
+  "venta_f": "2026-09-17",
+  "venta_p": null
+ },
+ {
+  "apn": "50288697",
+  "ciudad": "Surprise",
+  "compra_f": "2026-06-18",
+  "compra_p": 334200,
+  "cp": "85388",
+  "detectada": "2026-10-02",
+  "dias": 91,
+  "sqft": 1578,
+  "venta_escritura": "20260547083",
+  "venta_f": "2026-09-17",
+  "venta_p": null
  }
 ]
