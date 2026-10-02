@@ -835,6 +835,88 @@ def actualizar_condados(estado_c, hoy, cartera_maricopa_n=None):
     return salida
 
 
+# ----------------------------------------------------------------- mercado (FRED)
+
+# Las areas metropolitanas donde Opendoor tiene mas casas (codigo CBSA).
+METROS = [
+    ("38060", "Phoenix", "AZ"), ("19100", "Dallas-Fort Worth", "TX"), ("26420", "Houston", "TX"),
+    ("12060", "Atlanta", "GA"), ("16740", "Charlotte", "NC"), ("39580", "Raleigh", "NC"),
+    ("45300", "Tampa", "FL"), ("36740", "Orlando", "FL"), ("27260", "Jacksonville", "FL"),
+    ("34980", "Nashville", "TN"), ("41700", "San Antonio", "TX"), ("12420", "Austin", "TX"),
+    ("US", "United States", "US"),
+]
+FRED_CSV = "https://fred.stlouisfed.org/graph/fredgraph.csv?id="
+
+
+def get_texto(url, fuente, intentos=3):
+    ultimo = None
+    for i in range(intentos):
+        try:
+            req = urllib.request.Request(url_real(url), headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                LLAMADAS[fuente] += 1
+                t = r.read().decode("utf-8", "ignore")
+            time.sleep(PAUSA)
+            return t
+        except Exception as e:  # noqa: BLE001
+            ultimo = e
+            time.sleep(3 * (i + 1))
+    raise FuenteCaida(f"{fuente}: {ultimo}")
+
+
+def csv_fred(texto, meses=25):
+    filas = [l.strip().split(",") for l in texto.strip().splitlines() if l.strip()]
+    if len(filas) < 2:
+        return {}
+    cab = filas[0]
+    out = {c: [] for c in cab[1:]}
+    for f in filas[1:]:
+        for i, c in enumerate(cab[1:], start=1):
+            if i < len(f) and f[i] not in (".", ""):
+                try:
+                    out[c].append([f[0][:10], float(f[i])])
+                except ValueError:
+                    pass
+    return {c: v[-meses:] for c, v in out.items()}
+
+
+def actualizar_mercado():
+    """Realtor.com (via FRED): anuncios activos, dias en mercado, anuncios con rebaja y
+    precio mediano de lista en los mercados de Opendoor, mas la hipoteca a 30 anos."""
+    metros = []
+    for cbsa, nombre, st in METROS:
+        ids = [f"ACTLISCOU{cbsa}", f"MEDDAYONMAR{cbsa}", f"PRIREDCOU{cbsa}", f"MEDLISPRI{cbsa}"]
+        try:
+            d = csv_fred(get_texto(FRED_CSV + ",".join(ids), "fred"))
+        except FuenteCaida:
+            continue
+        act, dom, red, pre = (d.get(i, []) for i in ids)
+        if not act:
+            continue
+        fila = {"cbsa": cbsa, "nombre": nombre, "estado": st, "mes": act[-1][0][:7],
+                "activos": act[-1][1], "activos_serie": [v for _, v in act],
+                "dom": dom[-1][1] if dom else None, "dom_serie": [v for _, v in dom],
+                "precio": pre[-1][1] if pre else None}
+        if len(act) >= 13 and act[-13][1]:
+            fila["activos_yoy_pct"] = round((act[-1][1] / act[-13][1] - 1) * 100, 1)
+        if len(dom) >= 13:
+            fila["dom_hace_1a"] = dom[-13][1]
+        if red and act and red[-1][0] == act[-1][0] and act[-1][1]:
+            fila["con_rebaja_pct"] = round(red[-1][1] / act[-1][1] * 100, 1)
+            if len(red) >= 13 and len(act) >= 13 and act[-13][1]:
+                fila["con_rebaja_pct_hace_1a"] = round(red[-13][1] / act[-13][1] * 100, 1)
+        metros.append(fila)
+    hip = []
+    try:
+        hip = csv_fred(get_texto(FRED_CSV + "MORTGAGE30US", "fred"), meses=60).get("MORTGAGE30US", [])
+    except FuenteCaida:
+        pass
+    if not metros and not hip:
+        raise FuenteCaida("FRED no respondio")
+    return {"metros": metros, "hipoteca30": hip,
+            "fuente": "Realtor.com via FRED (monthly) · Freddie Mac PMMS via FRED (weekly)"}
+
+
 # ----------------------------------------------------------------- panel
 
 def construir_panel(hoy):
@@ -949,6 +1031,14 @@ def main():
     except Exception as e:  # noqa: BLE001
         errores["condados"] = f"{type(e).__name__}: {e}"
         traceback.print_exc()
+
+    # ---- contexto de mercado
+    try:
+        resumen["mercado"] = actualizar_mercado()
+        print(f"Mercado: {len(resumen['mercado']['metros'])} areas, "
+              f"{len(resumen['mercado']['hipoteca30'])} semanas de hipoteca")
+    except Exception as e:  # noqa: BLE001
+        errores["mercado"] = f"{type(e).__name__}: {e}"
 
     resumen["errores"] = errores
     resumen["llamadas"] = dict(LLAMADAS)
