@@ -2,11 +2,11 @@
  "aviso": "Registros publicos de los condados. El catastro va con ~2 semanas de retraso sobre el registro. Hipotecas de Opendoor Home Loans: solo Maricopa, no es el volumen nacional. Margen bruto = venta - compra, sin reformas, comisiones ni costes de tenencia. Texas no publica precios de venta.",
  "condados": [
   {
-   "altas": 3,
-   "bajas": 1,
+   "altas": 0,
+   "bajas": 0,
    "casas": 300,
    "ciudad": "Phoenix",
-   "dias_en_cartera_mediana": 89.0,
+   "dias_en_cartera_mediana": 90.0,
    "estado": "AZ",
    "historial": [
     [
@@ -27,6 +27,10 @@
     ],
     [
      "2026-10-03",
+     300
+    ],
+    [
+     "2026-10-04",
      300
     ]
    ],
@@ -63,6 +67,10 @@
     [
      "2026-10-03",
      65
+    ],
+    [
+     "2026-10-04",
+     65
     ]
    ],
    "id": "pima_az",
@@ -76,7 +84,7 @@
    "bajas": 0,
    "casas": 164,
    "ciudad": "Houston",
-   "dias_en_cartera_mediana": 182.5,
+   "dias_en_cartera_mediana": 183.5,
    "estado": "TX",
    "historial": [
     [
@@ -98,6 +106,10 @@
     [
      "2026-10-03",
      164
+    ],
+    [
+     "2026-10-04",
+     164
     ]
    ],
    "id": "harris_tx",
@@ -111,7 +123,7 @@
    "bajas": 0,
    "casas": 99,
    "ciudad": "Dallas norte",
-   "dias_en_cartera_mediana": 95,
+   "dias_en_cartera_mediana": 96,
    "estado": "TX",
    "historial": [
     [
@@ -132,6 +144,10 @@
     ],
     [
      "2026-10-03",
+     99
+    ],
+    [
+     "2026-10-04",
      99
     ]
    ],
@@ -168,6 +184,10 @@
     [
      "2026-10-03",
      62
+    ],
+    [
+     "2026-10-04",
+     62
     ]
    ],
    "id": "denton_tx",
@@ -202,6 +222,10 @@
     ],
     [
      "2026-10-03",
+     32
+    ],
+    [
+     "2026-10-04",
      32
     ]
    ],
@@ -238,6 +262,10 @@
     [
      "2026-10-03",
      17
+    ],
+    [
+     "2026-10-04",
+     17
     ]
    ],
    "id": "fortbend_tx",
@@ -248,7 +276,7 @@
   }
  ],
  "errores": {},
- "fecha": "2026-10-03",
+ "fecha": "2026-10-04",
  "llamadas": {
   "collin_tx": 1,
   "denton_tx": 1,
@@ -256,26 +284,26 @@
   "fred": 14,
   "harris_tx": 1,
   "maricopa_az": 1,
-  "maricopa_catastro": 10,
+  "maricopa_catastro": 9,
   "maricopa_registro": 14,
   "pima_az": 1,
   "williamson_tx": 1
  },
  "maricopa": {
   "anuncios_vs_titulo": {
-   "anuncios_maricopa": 204,
-   "cartera_sin_anunciar": 124,
+   "anuncios_maricopa": 202,
+   "cartera_sin_anunciar": 126,
    "cartera_total": 300,
    "clases": {
     "comprada_reciente": 13,
-    "en_cartera": 176,
+    "en_cartera": 174,
     "sin_parcela": 2,
     "sin_titulo_od": 13
    },
-   "comprobados": 204,
+   "comprobados": 202,
    "consultas_hoy": 0,
    "nota": "Anuncios de Arizona con CP 850/852/853 (aprox. Maricopa). 'en_cartera': la parcela es de Opendoor en el catastro. 'comprada_reciente': el catastro aun no lo refleja pero hay una escritura reciente de Opendoor con el dueno anterior. 'sin_titulo_od': Opendoor la anuncia pero los registros no la ponen a su nombre (posible venta por cuenta del propietario, o escritura aun no indexada). Retraso del catastro: ~2 semanas.",
-   "pct_titulo_od": 93.6
+   "pct_titulo_od": 93.5
   },
   "cartera": {
    "ano_mediana": 2002,
@@ -296,7 +324,7 @@
    },
    "coste_base": 262,
    "coste_total": 125817930,
-   "dias_en_cartera_mediana": 89.0,
+   "dias_en_cartera_mediana": 90.0,
    "mas_de_90_dias_pct": 49.7,
    "por_entidad": {
     "OPENDOOR LLC": 1,
@@ -309,11 +337,11 @@
    "precio_compra_sqft_mediana": 240,
    "precio_sobre_valor_fiscal": 1.141,
    "reparto_dias_en_cartera": {
-    "0-30": 32,
+    "0-30": 31,
     "181-365": 23,
-    "31-60": 67,
+    "31-60": 66,
     "365+": 15,
-    "61-90": 52,
+    "61-90": 54,
     "91-180": 111
    },
    "reparto_precio": {
@@ -324,7 +352,7 @@
     "750k+": 21,
     "<250k": 10
    },
-   "retraso_catastro_dias": 11,
+   "retraso_catastro_dias": 12,
    "sqft_mediana": 1902,
    "ultima_escritura_catastro": "2026-09-22"
   },
@@ -1910,5 +1938,5 @@
    }
   ]
  },
- "obtenido_utc": "2026-10-03T18:14:31+00:00"
+ "obtenido_utc": "2026-10-04T18:26:26+00:00"
 }
