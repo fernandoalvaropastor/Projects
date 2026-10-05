@@ -6,7 +6,7 @@
    "bajas": 0,
    "casas": 300,
    "ciudad": "Phoenix",
-   "dias_en_cartera_mediana": 90.0,
+   "dias_en_cartera_mediana": 91.0,
    "estado": "AZ",
    "historial": [
     [
@@ -32,18 +32,22 @@
     [
      "2026-10-04",
      300
+    ],
+    [
+     "2026-10-05",
+     300
     ]
    ],
    "id": "maricopa_az",
-   "mas_de_90_dias_pct": 49.7,
+   "mas_de_90_dias_pct": 50.7,
    "nombre": "Maricopa",
    "ok": true,
    "ultima_fecha": "2026-09-22"
   },
   {
    "altas": 0,
-   "bajas": 0,
-   "casas": 65,
+   "bajas": 1,
+   "casas": 64,
    "ciudad": "Tucson",
    "dias_en_cartera_mediana": null,
    "estado": "AZ",
@@ -71,6 +75,10 @@
     [
      "2026-10-04",
      65
+    ],
+    [
+     "2026-10-05",
+     64
     ]
    ],
    "id": "pima_az",
@@ -84,7 +92,7 @@
    "bajas": 0,
    "casas": 164,
    "ciudad": "Houston",
-   "dias_en_cartera_mediana": 183.5,
+   "dias_en_cartera_mediana": 184.5,
    "estado": "TX",
    "historial": [
     [
@@ -110,10 +118,14 @@
     [
      "2026-10-04",
      164
+    ],
+    [
+     "2026-10-05",
+     164
     ]
    ],
    "id": "harris_tx",
-   "mas_de_90_dias_pct": 95.1,
+   "mas_de_90_dias_pct": 96.3,
    "nombre": "Harris",
    "ok": true,
    "ultima_fecha": "2026-07-21"
@@ -123,7 +135,7 @@
    "bajas": 0,
    "casas": 99,
    "ciudad": "Dallas norte",
-   "dias_en_cartera_mediana": 96,
+   "dias_en_cartera_mediana": 97,
    "estado": "TX",
    "historial": [
     [
@@ -149,10 +161,14 @@
     [
      "2026-10-04",
      99
+    ],
+    [
+     "2026-10-05",
+     99
     ]
    ],
    "id": "collin_tx",
-   "mas_de_90_dias_pct": 52.5,
+   "mas_de_90_dias_pct": 53.5,
    "nombre": "Collin",
    "ok": true,
    "ultima_fecha": "2026-09-18"
@@ -187,6 +203,10 @@
     ],
     [
      "2026-10-04",
+     62
+    ],
+    [
+     "2026-10-05",
      62
     ]
    ],
@@ -227,6 +247,10 @@
     [
      "2026-10-04",
      32
+    ],
+    [
+     "2026-10-05",
+     32
     ]
    ],
    "id": "williamson_tx",
@@ -266,6 +290,10 @@
     [
      "2026-10-04",
      17
+    ],
+    [
+     "2026-10-05",
+     17
     ]
    ],
    "id": "fortbend_tx",
@@ -276,7 +304,7 @@
   }
  ],
  "errores": {},
- "fecha": "2026-10-04",
+ "fecha": "2026-10-05",
  "llamadas": {
   "collin_tx": 1,
   "denton_tx": 1,
@@ -284,26 +312,26 @@
   "fred": 14,
   "harris_tx": 1,
   "maricopa_az": 1,
-  "maricopa_catastro": 9,
-  "maricopa_registro": 14,
+  "maricopa_catastro": 15,
+  "maricopa_registro": 19,
   "pima_az": 1,
   "williamson_tx": 1
  },
  "maricopa": {
   "anuncios_vs_titulo": {
-   "anuncios_maricopa": 202,
+   "anuncios_maricopa": 207,
    "cartera_sin_anunciar": 126,
    "cartera_total": 300,
    "clases": {
-    "comprada_reciente": 13,
+    "comprada_reciente": 14,
     "en_cartera": 174,
     "sin_parcela": 2,
-    "sin_titulo_od": 13
+    "sin_titulo_od": 17
    },
-   "comprobados": 202,
-   "consultas_hoy": 0,
+   "comprobados": 207,
+   "consultas_hoy": 6,
    "nota": "Anuncios de Arizona con CP 850/852/853 (aprox. Maricopa). 'en_cartera': la parcela es de Opendoor en el catastro. 'comprada_reciente': el catastro aun no lo refleja pero hay una escritura reciente de Opendoor con el dueno anterior. 'sin_titulo_od': Opendoor la anuncia pero los registros no la ponen a su nombre (posible venta por cuenta del propietario, o escritura aun no indexada). Retraso del catastro: ~2 semanas.",
-   "pct_titulo_od": 93.5
+   "pct_titulo_od": 91.7
   },
   "cartera": {
    "ano_mediana": 2002,
@@ -324,8 +352,8 @@
    },
    "coste_base": 262,
    "coste_total": 125817930,
-   "dias_en_cartera_mediana": 90.0,
-   "mas_de_90_dias_pct": 49.7,
+   "dias_en_cartera_mediana": 91.0,
+   "mas_de_90_dias_pct": 50.7,
    "por_entidad": {
     "OPENDOOR LLC": 1,
     "OPENDOOR PROPERTY C LLC": 3,
@@ -337,12 +365,12 @@
    "precio_compra_sqft_mediana": 240,
    "precio_sobre_valor_fiscal": 1.141,
    "reparto_dias_en_cartera": {
-    "0-30": 31,
-    "181-365": 23,
-    "31-60": 66,
+    "0-30": 29,
+    "181-365": 25,
+    "31-60": 67,
     "365+": 15,
-    "61-90": 54,
-    "91-180": 111
+    "61-90": 52,
+    "91-180": 112
    },
    "reparto_precio": {
     "250-300k": 16,
@@ -352,7 +380,7 @@
     "750k+": 21,
     "<250k": 10
    },
-   "retraso_catastro_dias": 12,
+   "retraso_catastro_dias": 13,
    "sqft_mediana": 1902,
    "ultima_escritura_catastro": "2026-09-22"
   },
@@ -430,7 +458,7 @@
    ],
    "primera": "2026-07-15",
    "total_desde_relanzamiento": 11,
-   "ultimos_30d": 3,
+   "ultimos_30d": 2,
    "ventas_od_con_ohl": 9,
    "ventas_od_desde_primera": 112
   },
@@ -440,7 +468,7 @@
   },
   "registro": {
    "desde": "2026-01-01",
-   "documentos": 988,
+   "documentos": 993,
    "meses": [
     {
      "m": "2004-03",
@@ -559,7 +587,7 @@
      "m": "2026-10",
      "p_compra": null,
      "p_venta": null,
-     "pendientes": 5
+     "pendientes": 10
     }
    ],
    "semanas": [
@@ -742,12 +770,12 @@
     {
      "hipotecas_ohl": 1,
      "osn_otros": 1,
-     "pendientes": 30,
+     "pendientes": 35,
      "s": "2026-09-28"
     }
    ],
    "ultimos_90d": {
-    "compra": 151,
+    "compra": 148,
     "hipoteca_ohl": 11,
     "liberacion_ohl": 4,
     "osn_fiduciario": 2,
@@ -755,8 +783,8 @@
     "osn_sustitucion": 2,
     "otro_od": 3,
     "otro_ohl": 1,
-    "traspaso": 69,
-    "venta": 123
+    "traspaso": 74,
+    "venta": 121
    }
   },
   "ventas_emparejadas": {
@@ -1938,5 +1966,5 @@
    }
   ]
  },
- "obtenido_utc": "2026-10-04T18:26:26+00:00"
+ "obtenido_utc": "2026-10-05T21:43:01+00:00"
 }
