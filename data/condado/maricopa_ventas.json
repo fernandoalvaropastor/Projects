@@ -50,5 +50,31 @@
   "venta_escritura": "20260547083",
   "venta_f": "2026-09-17",
   "venta_p": null
+ },
+ {
+  "apn": "14186739",
+  "ciudad": "Mesa",
+  "compra_f": "2026-06-29",
+  "compra_p": 342600,
+  "cp": "85205",
+  "detectada": "2026-10-06",
+  "dias": 85,
+  "sqft": 1276,
+  "venta_escritura": "20260554751",
+  "venta_f": "2026-09-22",
+  "venta_p": null
+ },
+ {
+  "apn": "23219505",
+  "ciudad": "Sun City West",
+  "compra_f": "2026-04-02",
+  "compra_p": 293900,
+  "cp": "85375",
+  "detectada": "2026-10-06",
+  "dias": 173,
+  "sqft": 1404,
+  "venta_escritura": "20260555382",
+  "venta_f": "2026-09-22",
+  "venta_p": null
  }
 ]

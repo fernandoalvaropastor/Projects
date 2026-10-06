@@ -1,0 +1,1901 @@
+{
+ "bytes": 252166,
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "ItemList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Alabama Other",
+      "url": "https://www.opendoor.com/homes/alabama_other"
+     },
+     "position": 1
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Alaska Other",
+      "url": "https://www.opendoor.com/homes/alaska"
+     },
+     "position": 2
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Albuquerque, NM",
+      "url": "https://www.opendoor.com/homes/albuquerque"
+     },
+     "position": 3
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Allentown, PA",
+      "url": "https://www.opendoor.com/homes/allentown_pa"
+     },
+     "position": 4
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Arizona Other",
+      "url": "https://www.opendoor.com/homes/arizona_other"
+     },
+     "position": 5
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Arkansas Other",
+      "url": "https://www.opendoor.com/homes/arkansas_other"
+     },
+     "position": 6
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Asheville, NC",
+      "url": "https://www.opendoor.com/homes/asheville"
+     },
+     "position": 7
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Atlanta",
+      "url": "https://www.opendoor.com/homes/atlanta"
+     },
+     "position": 8
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Austin",
+      "url": "https://www.opendoor.com/homes/austin"
+     },
+     "position": 9
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Bakersfield, CA",
+      "url": "https://www.opendoor.com/homes/bakersfield_ca"
+     },
+     "position": 10
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Baltimore, MD",
+      "url": "https://www.opendoor.com/homes/baltimore"
+     },
+     "position": 11
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Birmingham, AL",
+      "url": "https://www.opendoor.com/homes/birmingham"
+     },
+     "position": 12
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Boise",
+      "url": "https://www.opendoor.com/homes/boise"
+     },
+     "position": 13
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Boston, MA",
+      "url": "https://www.opendoor.com/homes/boston"
+     },
+     "position": 14
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Bridgeport, CT",
+      "url": "https://www.opendoor.com/homes/bridgeport_ct"
+     },
+     "position": 15
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in California Other",
+      "url": "https://www.opendoor.com/homes/california_other"
+     },
+     "position": 16
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Central California, CA",
+      "url": "https://www.opendoor.com/homes/central_california_ca"
+     },
+     "position": 17
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Charleston, SC",
+      "url": "https://www.opendoor.com/homes/charleston"
+     },
+     "position": 18
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Charlotte",
+      "url": "https://www.opendoor.com/homes/charlotte"
+     },
+     "position": 19
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Chattanooga, TN/GA",
+      "url": "https://www.opendoor.com/homes/chattanooga"
+     },
+     "position": 20
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Chicago, IL",
+      "url": "https://www.opendoor.com/homes/chicago_il"
+     },
+     "position": 21
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Cincinnati, OH",
+      "url": "https://www.opendoor.com/homes/cincinnati"
+     },
+     "position": 22
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Clarksville Ky Tn",
+      "url": "https://www.opendoor.com/homes/clarksville_ky_tn"
+     },
+     "position": 23
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Cleveland, OH",
+      "url": "https://www.opendoor.com/homes/cleveland"
+     },
+     "position": 24
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Colorado Other",
+      "url": "https://www.opendoor.com/homes/colorado_other"
+     },
+     "position": 25
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Colorado Springs, CO",
+      "url": "https://www.opendoor.com/homes/colorado-springs"
+     },
+     "position": 26
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Columbia, SC",
+      "url": "https://www.opendoor.com/homes/columbia"
+     },
+     "position": 27
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Columbus",
+      "url": "https://www.opendoor.com/homes/columbus"
+     },
+     "position": 28
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Connecticut Other",
+      "url": "https://www.opendoor.com/homes/connecticut_other"
+     },
+     "position": 29
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Corpus Christi, TX",
+      "url": "https://www.opendoor.com/homes/corpus-christi"
+     },
+     "position": 30
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Dallas-Fort Worth",
+      "url": "https://www.opendoor.com/homes/dallas-fort-worth"
+     },
+     "position": 31
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Default",
+      "url": "https://www.opendoor.com/homes/default"
+     },
+     "position": 32
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Delaware Other",
+      "url": "https://www.opendoor.com/homes/delaware_other"
+     },
+     "position": 33
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Denver",
+      "url": "https://www.opendoor.com/homes/denver"
+     },
+     "position": 34
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Des Moines, IA",
+      "url": "https://www.opendoor.com/homes/des_moines_ia"
+     },
+     "position": 35
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Detroit, MI",
+      "url": "https://www.opendoor.com/homes/detroit"
+     },
+     "position": 36
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in East Texas",
+      "url": "https://www.opendoor.com/homes/east_texas"
+     },
+     "position": 37
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in El Paso",
+      "url": "https://www.opendoor.com/homes/el_paso"
+     },
+     "position": 38
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Fayetteville, AR",
+      "url": "https://www.opendoor.com/homes/fayetteville_ar"
+     },
+     "position": 39
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Florida Panhandle",
+      "url": "https://www.opendoor.com/homes/florida_panhandle"
+     },
+     "position": 40
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Georgia Other",
+      "url": "https://www.opendoor.com/homes/georgia_other"
+     },
+     "position": 41
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Greensboro, NC",
+      "url": "https://www.opendoor.com/homes/greensboro"
+     },
+     "position": 42
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Greenville, SC",
+      "url": "https://www.opendoor.com/homes/greenville"
+     },
+     "position": 43
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Hartford, CT",
+      "url": "https://www.opendoor.com/homes/hartford_ct"
+     },
+     "position": 44
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Hawaii Other",
+      "url": "https://www.opendoor.com/homes/hawaii_other"
+     },
+     "position": 45
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Houston",
+      "url": "https://www.opendoor.com/homes/houston"
+     },
+     "position": 46
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Huntsville, AL",
+      "url": "https://www.opendoor.com/homes/huntsville_al"
+     },
+     "position": 47
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Idaho Other",
+      "url": "https://www.opendoor.com/homes/idaho_other"
+     },
+     "position": 48
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Illinois Other",
+      "url": "https://www.opendoor.com/homes/illinois_other"
+     },
+     "position": 49
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Indiana Other",
+      "url": "https://www.opendoor.com/homes/indiana_other"
+     },
+     "position": 50
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Indianapolis",
+      "url": "https://www.opendoor.com/homes/indianapolis"
+     },
+     "position": 51
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Iowa Other",
+      "url": "https://www.opendoor.com/homes/iowa_other"
+     },
+     "position": 52
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Jacksonville",
+      "url": "https://www.opendoor.com/homes/jacksonville"
+     },
+     "position": 53
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Johnson City - Kinsport, TN",
+      "url": "https://www.opendoor.com/homes/johnson_city_tn"
+     },
+     "position": 54
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Kansas City",
+      "url": "https://www.opendoor.com/homes/kansas-city"
+     },
+     "position": 55
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Kansas Other",
+      "url": "https://www.opendoor.com/homes/kansas_other"
+     },
+     "position": 56
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Kentucky Other",
+      "url": "https://www.opendoor.com/homes/kentucky_other"
+     },
+     "position": 57
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Killeen, TX",
+      "url": "https://www.opendoor.com/homes/killeen"
+     },
+     "position": 58
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Knoxville - Morristown, TN",
+      "url": "https://www.opendoor.com/homes/knoxville"
+     },
+     "position": 59
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Las Vegas",
+      "url": "https://www.opendoor.com/homes/las-vegas"
+     },
+     "position": 60
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Little Rock, AR",
+      "url": "https://www.opendoor.com/homes/little_rock_ar"
+     },
+     "position": 61
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Los Angeles",
+      "url": "https://www.opendoor.com/homes/los-angeles"
+     },
+     "position": 62
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Louisiana Other",
+      "url": "https://www.opendoor.com/homes/louisiana_other"
+     },
+     "position": 63
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Louisville, IN/KY",
+      "url": "https://www.opendoor.com/homes/louisville_in_ky"
+     },
+     "position": 64
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Maine Other",
+      "url": "https://www.opendoor.com/homes/maine_other"
+     },
+     "position": 65
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Maryland Other",
+      "url": "https://www.opendoor.com/homes/maryland_other"
+     },
+     "position": 66
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Massachusetts Other",
+      "url": "https://www.opendoor.com/homes/massachusetts_other"
+     },
+     "position": 67
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Memphis TN",
+      "url": "https://www.opendoor.com/homes/memphis_tn"
+     },
+     "position": 68
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Miami, FL",
+      "url": "https://www.opendoor.com/homes/miami"
+     },
+     "position": 69
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Michigan Other",
+      "url": "https://www.opendoor.com/homes/michigan_other"
+     },
+     "position": 70
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Milwaukee Waukesha, WI",
+      "url": "https://www.opendoor.com/homes/milwaukee_waukesha_wi"
+     },
+     "position": 71
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Minneapolis-St. Paul",
+      "url": "https://www.opendoor.com/homes/minneapolis-saint-paul"
+     },
+     "position": 72
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Minnesota Other",
+      "url": "https://www.opendoor.com/homes/minnesota_other"
+     },
+     "position": 73
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Mississippi Other",
+      "url": "https://www.opendoor.com/homes/mississippi_other"
+     },
+     "position": 74
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Missouri Other",
+      "url": "https://www.opendoor.com/homes/missouri_other"
+     },
+     "position": 75
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Montana Other",
+      "url": "https://www.opendoor.com/homes/montana_other"
+     },
+     "position": 76
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Myrtle Beach, SC",
+      "url": "https://www.opendoor.com/homes/myrtle_beach_sc"
+     },
+     "position": 77
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Nashville",
+      "url": "https://www.opendoor.com/homes/nashville"
+     },
+     "position": 78
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Nebraska Other",
+      "url": "https://www.opendoor.com/homes/nebraska_other"
+     },
+     "position": 79
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Nevada Other",
+      "url": "https://www.opendoor.com/homes/nevada_other"
+     },
+     "position": 80
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in New Hampshire Other",
+      "url": "https://www.opendoor.com/homes/new_hampshire_other"
+     },
+     "position": 81
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in New Haven, CT",
+      "url": "https://www.opendoor.com/homes/new_haven_ct"
+     },
+     "position": 82
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in New Mexico Other",
+      "url": "https://www.opendoor.com/homes/new_mexico_other"
+     },
+     "position": 83
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in New Orleans, LA",
+      "url": "https://www.opendoor.com/homes/new_orleans_la"
+     },
+     "position": 84
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in New York / New Jersey",
+      "url": "https://www.opendoor.com/homes/new-york-new-jersey"
+     },
+     "position": 85
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in New York Other",
+      "url": "https://www.opendoor.com/homes/new_york_other"
+     },
+     "position": 86
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in North Carolina Other",
+      "url": "https://www.opendoor.com/homes/north_carolina_other"
+     },
+     "position": 87
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in North Dakota Other",
+      "url": "https://www.opendoor.com/homes/north_dakota_other"
+     },
+     "position": 88
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Northern Colorado",
+      "url": "https://www.opendoor.com/homes/northern-colorado"
+     },
+     "position": 89
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Ohio Other",
+      "url": "https://www.opendoor.com/homes/ohio_other"
+     },
+     "position": 90
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Oklahoma City, OK",
+      "url": "https://www.opendoor.com/homes/oklahoma-city"
+     },
+     "position": 91
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Oklahoma Other",
+      "url": "https://www.opendoor.com/homes/oklahoma_other"
+     },
+     "position": 92
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Omaha, NE",
+      "url": "https://www.opendoor.com/homes/omaha_ne"
+     },
+     "position": 93
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Oregon Other",
+      "url": "https://www.opendoor.com/homes/oregon_other"
+     },
+     "position": 94
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Orlando",
+      "url": "https://www.opendoor.com/homes/orlando"
+     },
+     "position": 95
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Palm Bay, FL",
+      "url": "https://www.opendoor.com/homes/palm_bay_fl"
+     },
+     "position": 96
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Pennsylvania Other",
+      "url": "https://www.opendoor.com/homes/pennsylvania_other"
+     },
+     "position": 97
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Philadelphia, PA",
+      "url": "https://www.opendoor.com/homes/philadelphia_pa"
+     },
+     "position": 98
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Phoenix",
+      "url": "https://www.opendoor.com/homes/phoenix"
+     },
+     "position": 99
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Pittsburgh, PA",
+      "url": "https://www.opendoor.com/homes/pittsburgh_pa"
+     },
+     "position": 100
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Portland",
+      "url": "https://www.opendoor.com/homes/portland"
+     },
+     "position": 101
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Prescott Valley - Prescott, AZ",
+      "url": "https://www.opendoor.com/homes/prescott"
+     },
+     "position": 102
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Providence, RI",
+      "url": "https://www.opendoor.com/homes/providence_ri"
+     },
+     "position": 103
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Puerto Rico Other",
+      "url": "https://www.opendoor.com/homes/puerto_rico_other"
+     },
+     "position": 104
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Raleigh-Durham",
+      "url": "https://www.opendoor.com/homes/raleigh-durham"
+     },
+     "position": 105
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Reno, NV",
+      "url": "https://www.opendoor.com/homes/reno"
+     },
+     "position": 106
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Richmond, VA",
+      "url": "https://www.opendoor.com/homes/richmond"
+     },
+     "position": 107
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Riverside",
+      "url": "https://www.opendoor.com/homes/riverside"
+     },
+     "position": 108
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Sacramento",
+      "url": "https://www.opendoor.com/homes/sacramento"
+     },
+     "position": 109
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Salisbury, MD",
+      "url": "https://www.opendoor.com/homes/salisbury_md"
+     },
+     "position": 110
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Salt Lake City",
+      "url": "https://www.opendoor.com/homes/salt-lake-city"
+     },
+     "position": 111
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in San Antonio",
+      "url": "https://www.opendoor.com/homes/san-antonio"
+     },
+     "position": 112
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in San Diego",
+      "url": "https://www.opendoor.com/homes/san-diego"
+     },
+     "position": 113
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Savannah, GA",
+      "url": "https://www.opendoor.com/homes/savannah_ga"
+     },
+     "position": 114
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Seattle, WA",
+      "url": "https://www.opendoor.com/homes/seattle_wa"
+     },
+     "position": 115
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in San Francisco Bay Area",
+      "url": "https://www.opendoor.com/homes/san-francisco-bay-area"
+     },
+     "position": 116
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in South Carolina Other",
+      "url": "https://www.opendoor.com/homes/south_carolina_other"
+     },
+     "position": 117
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in South Dakota Other",
+      "url": "https://www.opendoor.com/homes/south_dakota_other"
+     },
+     "position": 118
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in South Texas",
+      "url": "https://www.opendoor.com/homes/south_texas"
+     },
+     "position": 119
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Southwest Florida, FL",
+      "url": "https://www.opendoor.com/homes/southwest-florida"
+     },
+     "position": 120
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Springfield Mo",
+      "url": "https://www.opendoor.com/homes/springfield_mo"
+     },
+     "position": 121
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in St. Louis",
+      "url": "https://www.opendoor.com/homes/st-louis"
+     },
+     "position": 122
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Tampa",
+      "url": "https://www.opendoor.com/homes/tampa"
+     },
+     "position": 123
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Tennessee Other",
+      "url": "https://www.opendoor.com/homes/tennessee_other"
+     },
+     "position": 124
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Tucson",
+      "url": "https://www.opendoor.com/homes/tucson"
+     },
+     "position": 125
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Tulsa",
+      "url": "https://www.opendoor.com/homes/tulsa"
+     },
+     "position": 126
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Tulsa, OK",
+      "url": "https://www.opendoor.com/homes/tulsa_ok"
+     },
+     "position": 127
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Utah Other",
+      "url": "https://www.opendoor.com/homes/utah_other"
+     },
+     "position": 128
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Vermont Other",
+      "url": "https://www.opendoor.com/homes/vermont_other"
+     },
+     "position": 129
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Virginia Beach, VA",
+      "url": "https://www.opendoor.com/homes/virginia_beach_va"
+     },
+     "position": 130
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Virginia Other",
+      "url": "https://www.opendoor.com/homes/virginia_other"
+     },
+     "position": 131
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Washington, DC",
+      "url": "https://www.opendoor.com/homes/washington-dc"
+     },
+     "position": 132
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Washington Other",
+      "url": "https://www.opendoor.com/homes/washington_other"
+     },
+     "position": 133
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Western MD",
+      "url": "https://www.opendoor.com/homes/western_md"
+     },
+     "position": 134
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Western Ny",
+      "url": "https://www.opendoor.com/homes/western_ny"
+     },
+     "position": 135
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in West Texas",
+      "url": "https://www.opendoor.com/homes/west_texas"
+     },
+     "position": 136
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in West Virginia Other",
+      "url": "https://www.opendoor.com/homes/west_virginia_other"
+     },
+     "position": 137
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Wichita Ks",
+      "url": "https://www.opendoor.com/homes/wichita_ks"
+     },
+     "position": 138
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Wisconsin Other",
+      "url": "https://www.opendoor.com/homes/wisconsin_other"
+     },
+     "position": 139
+    },
+    {
+     "@type": "ListItem",
+     "item": {
+      "@type": "WebPage",
+      "name": "Homes for sale in Wyoming Other",
+      "url": "https://www.opendoor.com/homes/wyoming_other"
+     },
+     "position": 140
+    }
+   ],
+   "name": "Opendoor Markets",
+   "numberOfItems": 140
+  }
+ ],
+ "rutas_json": [
+  "props.pageProps.dehydratedState.queries[0].dehydratedAt = 1791311451461",
+  "props.pageProps.dehydratedState.queries[0].state.data.pages[0].kind = initial",
+  "props.pageProps.dehydratedState.queries[0].state.data.pages[0].listings.nextPage = None",
+  "props.pageProps.dehydratedState.queries[0].state.data.pages[0].listings.totalCount = 0",
+  "props.pageProps.dehydratedState.queries[0].state.dataUpdateCount = 1",
+  "props.pageProps.dehydratedState.queries[0].state.dataUpdatedAt = 1791311451461",
+  "props.pageProps.dehydratedState.queries[0].state.error = None",
+  "props.pageProps.dehydratedState.queries[0].state.errorUpdateCount = 0",
+  "props.pageProps.dehydratedState.queries[0].state.errorUpdatedAt = 0",
+  "props.pageProps.dehydratedState.queries[0].state.fetchFailureCount = 0",
+  "props.pageProps.dehydratedState.queries[0].state.fetchFailureReason = None",
+  "props.pageProps.dehydratedState.queries[0].state.fetchMeta = None",
+  "props.pageProps.dehydratedState.queries[0].state.isInvalidated = False",
+  "props.pageProps.dehydratedState.queries[0].state.status = success",
+  "props.pageProps.dehydratedState.queries[0].state.fetchStatus = idle",
+  "props.pageProps.dehydratedState.queries[0].queryKey[2].listInput.first = 30",
+  "props.pageProps.dehydratedState.queries[0].queryKey[2].listInput.page = 0",
+  "props.pageProps.dehydratedState.queries[0].queryKey[2].listInput.photoLimit = 3",
+  "props.pageProps.dehydratedState.queries[0].queryKey[2].listInput.where.market = iowa_other",
+  "props.pageProps.dehydratedState.queries[0].queryKey[2].mapInput.mode.markers.area.market = iowa_other",
+  "props.pageProps.dehydratedState.queries[0].queryHash = [\"marketplace\",\"browse\",{\"listInput\":{\"filters\":{},\"first\":3",
+  "props.pageProps.dehydratedState.queries[0].queryType = infinite",
+  "props.pageProps.initialVariables.listInput.first = 30",
+  "props.pageProps.initialVariables.listInput.page = 0",
+  "props.pageProps.initialVariables.listInput.photoLimit = 3",
+  "props.pageProps.initialVariables.listInput.where.market = iowa_other",
+  "props.pageProps.initialVariables.mapInput.mode.markers.area.market = iowa_other",
+  "props.pageProps.initialSearchPathname = /homes/iowa_other",
+  "props.pageProps.marketInfo.displayName = Iowa Other",
+  "props.pageProps.marketInfo.identifier = iowa_other",
+  "props.pageProps.marketInfo.name = iowa_other",
+  "props.pageProps.marketInfo.shape.coordinates[0][0].lat = 41.53564072",
+  "props.pageProps.marketInfo.shape.coordinates[0][0].lon = -93.6576767",
+  "props.pageProps.marketInfo.shape.coordinates[0][1].lat = 41.53564072",
+  "props.pageProps.marketInfo.shape.coordinates[0][1].lon = -92.6576767",
+  "props.pageProps.marketInfo.shape.coordinates[0][2].lat = 42.53564072",
+  "props.pageProps.marketInfo.shape.coordinates[0][2].lon = -92.6576767",
+  "props.pageProps.marketInfo.shape.coordinates[0][3].lat = 42.53564072",
+  "props.pageProps.marketInfo.shape.coordinates[0][3].lon = -93.6576767",
+  "props.pageProps.marketInfo.shape.coordinates[0][4].lat = 41.53564072",
+  "props.pageProps.marketInfo.shape.coordinates[0][4].lon = -93.6576767",
+  "props.pageProps.marketInfo.shape.type = Polygon",
+  "props.pageProps.queryParams.market = iowa_other",
+  "props.pageProps.queryParams.page = None",
+  "props.pageProps.activeMarkets[0].displayName = Alabama Other",
+  "props.pageProps.activeMarkets[0].displayState = AL",
+  "props.pageProps.activeMarkets[0].homesPath = /homes/alabama_other",
+  "props.pageProps.activeMarkets[0].identifier = alabama_other",
+  "props.pageProps.activeMarkets[1].displayName = Alaska Other",
+  "props.pageProps.activeMarkets[1].displayState = AK",
+  "props.pageProps.activeMarkets[1].homesPath = /homes/alaska",
+  "props.pageProps.activeMarkets[1].identifier = alaska_other",
+  "props.pageProps.activeMarkets[2].displayName = Albuquerque, NM",
+  "props.pageProps.activeMarkets[2].displayState = NM",
+  "props.pageProps.activeMarkets[2].homesPath = /homes/albuquerque",
+  "props.pageProps.activeMarkets[2].identifier = albuquerque_nm",
+  "props.pageProps.activeMarkets[3].displayName = Allentown, PA",
+  "props.pageProps.activeMarkets[3].displayState = PA",
+  "props.pageProps.activeMarkets[3].homesPath = /homes/allentown_pa",
+  "props.pageProps.activeMarkets[3].identifier = allentown_pa",
+  "props.pageProps.activeMarkets[4].displayName = Arizona Other",
+  "props.pageProps.activeMarkets[4].displayState = AZ",
+  "props.pageProps.activeMarkets[4].homesPath = /homes/arizona_other",
+  "props.pageProps.activeMarkets[4].identifier = arizona_other",
+  "props.pageProps.activeMarkets[5].displayName = Arkansas Other",
+  "props.pageProps.activeMarkets[5].displayState = AR",
+  "props.pageProps.activeMarkets[5].homesPath = /homes/arkansas_other",
+  "props.pageProps.activeMarkets[5].identifier = arkansas_other",
+  "props.pageProps.activeMarkets[6].displayName = Asheville, NC",
+  "props.pageProps.activeMarkets[6].displayState = NC",
+  "props.pageProps.activeMarkets[6].homesPath = /homes/asheville",
+  "props.pageProps.activeMarkets[6].identifier = asheville_nc",
+  "props.pageProps.activeMarkets[7].displayName = Atlanta",
+  "props.pageProps.activeMarkets[7].displayState = GA",
+  "props.pageProps.activeMarkets[7].homesPath = /homes/atlanta",
+  "props.pageProps.activeMarkets[7].identifier = atlanta",
+  "props.pageProps.activeMarkets[8].displayName = Austin",
+  "props.pageProps.activeMarkets[8].displayState = TX",
+  "props.pageProps.activeMarkets[8].homesPath = /homes/austin",
+  "props.pageProps.activeMarkets[8].identifier = austin",
+  "props.pageProps.activeMarkets[9].displayName = Bakersfield, CA",
+  "props.pageProps.activeMarkets[9].displayState = CA",
+  "props.pageProps.activeMarkets[9].homesPath = /homes/bakersfield_ca",
+  "props.pageProps.activeMarkets[9].identifier = bakersfield_ca",
+  "props.pageProps.activeMarkets[10].displayName = Baltimore, MD",
+  "props.pageProps.activeMarkets[10].displayState = MD",
+  "props.pageProps.activeMarkets[10].homesPath = /homes/baltimore",
+  "props.pageProps.activeMarkets[10].identifier = baltimore_md",
+  "props.pageProps.activeMarkets[11].displayName = Birmingham, AL",
+  "props.pageProps.activeMarkets[11].displayState = AL",
+  "props.pageProps.activeMarkets[11].homesPath = /homes/birmingham",
+  "props.pageProps.activeMarkets[11].identifier = birmingham_al",
+  "props.pageProps.activeMarkets[12].displayName = Boise",
+  "props.pageProps.activeMarkets[12].displayState = ID",
+  "props.pageProps.activeMarkets[12].homesPath = /homes/boise",
+  "props.pageProps.activeMarkets[12].identifier = boise",
+  "props.pageProps.activeMarkets[13].displayName = Boston, MA",
+  "props.pageProps.activeMarkets[13].displayState = MA",
+  "props.pageProps.activeMarkets[13].homesPath = /homes/boston",
+  "props.pageProps.activeMarkets[13].identifier = boston_ma",
+  "props.pageProps.activeMarkets[14].displayName = Bridgeport, CT",
+  "props.pageProps.activeMarkets[14].displayState = CT",
+  "props.pageProps.activeMarkets[14].homesPath = /homes/bridgeport_ct",
+  "props.pageProps.activeMarkets[14].identifier = bridgeport_ct",
+  "props.pageProps.activeMarkets[15].displayName = California Other",
+  "props.pageProps.activeMarkets[15].displayState = CA",
+  "props.pageProps.activeMarkets[15].homesPath = /homes/california_other",
+  "props.pageProps.activeMarkets[15].identifier = california_other",
+  "props.pageProps.activeMarkets[16].displayName = Central California, CA",
+  "props.pageProps.activeMarkets[16].displayState = CA",
+  "props.pageProps.activeMarkets[16].homesPath = /homes/central_california_ca",
+  "props.pageProps.activeMarkets[16].identifier = central_california_ca",
+  "props.pageProps.activeMarkets[17].displayName = Charleston, SC",
+  "props.pageProps.activeMarkets[17].displayState = SC",
+  "props.pageProps.activeMarkets[17].homesPath = /homes/charleston",
+  "props.pageProps.activeMarkets[17].identifier = charleston_sc",
+  "props.pageProps.activeMarkets[18].displayName = Charlotte",
+  "props.pageProps.activeMarkets[18].displayState = NC",
+  "props.pageProps.activeMarkets[18].homesPath = /homes/charlotte",
+  "props.pageProps.activeMarkets[18].identifier = charlotte",
+  "props.pageProps.activeMarkets[19].displayName = Chattanooga, TN/GA",
+  "props.pageProps.activeMarkets[19].displayState = TN",
+  "props.pageProps.activeMarkets[19].homesPath = /homes/chattanooga",
+  "props.pageProps.activeMarkets[19].identifier = chattanooga",
+  "props.pageProps.activeMarkets[20].displayName = Chicago, IL",
+  "props.pageProps.activeMarkets[20].displayState = IL",
+  "props.pageProps.activeMarkets[20].homesPath = /homes/chicago_il",
+  "props.pageProps.activeMarkets[20].identifier = chicago_il",
+  "props.pageProps.activeMarkets[21].displayName = Cincinnati, OH",
+  "props.pageProps.activeMarkets[21].displayState = OH",
+  "props.pageProps.activeMarkets[21].homesPath = /homes/cincinnati",
+  "props.pageProps.activeMarkets[21].identifier = cincinnati_oh",
+  "props.pageProps.activeMarkets[22].displayName = Clarksville Ky Tn",
+  "props.pageProps.activeMarkets[22].displayState = TN",
+  "props.pageProps.activeMarkets[22].homesPath = /homes/clarksville_ky_tn",
+  "props.pageProps.activeMarkets[22].identifier = clarksville_ky_tn",
+  "props.pageProps.activeMarkets[23].displayName = Cleveland, OH",
+  "props.pageProps.activeMarkets[23].displayState = OH",
+  "props.pageProps.activeMarkets[23].homesPath = /homes/cleveland",
+  "props.pageProps.activeMarkets[23].identifier = cleveland_oh",
+  "props.pageProps.activeMarkets[24].displayName = Colorado Other",
+  "props.pageProps.activeMarkets[24].displayState = CO",
+  "props.pageProps.activeMarkets[24].homesPath = /homes/colorado_other",
+  "props.pageProps.activeMarkets[24].identifier = colorado_other",
+  "props.pageProps.activeMarkets[25].displayName = Colorado Springs, CO",
+  "props.pageProps.activeMarkets[25].displayState = CO",
+  "props.pageProps.activeMarkets[25].homesPath = /homes/colorado-springs",
+  "props.pageProps.activeMarkets[25].identifier = colorado_springs_co",
+  "props.pageProps.activeMarkets[26].displayName = Columbia, SC",
+  "props.pageProps.activeMarkets[26].displayState = SC",
+  "props.pageProps.activeMarkets[26].homesPath = /homes/columbia",
+  "props.pageProps.activeMarkets[26].identifier = columbia_sc",
+  "props.pageProps.activeMarkets[27].displayName = Columbus",
+  "props.pageProps.activeMarkets[27].displayState = OH",
+  "props.pageProps.activeMarkets[27].homesPath = /homes/columbus",
+  "props.pageProps.activeMarkets[27].identifier = columbus_oh",
+  "props.pageProps.activeMarkets[28].displayName = Connecticut Other",
+  "props.pageProps.activeMarkets[28].displayState = CT",
+  "props.pageProps.activeMarkets[28].homesPath = /homes/connecticut_other",
+  "props.pageProps.activeMarkets[28].identifier = connecticut_other",
+  "props.pageProps.activeMarkets[29].displayName = Corpus Christi, TX",
+  "props.pageProps.activeMarkets[29].displayState = TX",
+  "props.pageProps.activeMarkets[29].homesPath = /homes/corpus-christi",
+  "props.pageProps.activeMarkets[29].identifier = corpus_christi_tx",
+  "props.pageProps.activeMarkets[30].displayName = Dallas-Fort Worth",
+  "props.pageProps.activeMarkets[30].displayState = TX",
+  "props.pageProps.activeMarkets[30].homesPath = /homes/dallas-fort-worth",
+  "props.pageProps.activeMarkets[30].identifier = dallas",
+  "props.pageProps.activeMarkets[31].displayName = Default",
+  "props.pageProps.activeMarkets[31].displayState = default",
+  "props.pageProps.activeMarkets[31].homesPath = /homes/default",
+  "props.pageProps.activeMarkets[31].identifier = default",
+  "props.pageProps.activeMarkets[32].displayName = Delaware Other",
+  "props.pageProps.activeMarkets[32].displayState = DE",
+  "props.pageProps.activeMarkets[32].homesPath = /homes/delaware_other",
+  "props.pageProps.activeMarkets[32].identifier = delaware_other",
+  "props.pageProps.activeMarkets[33].displayName = Denver",
+  "props.pageProps.activeMarkets[33].displayState = CO",
+  "props.pageProps.activeMarkets[33].homesPath = /homes/denver",
+  "props.pageProps.activeMarkets[33].identifier = denver",
+  "props.pageProps.activeMarkets[34].displayName = Des Moines, IA",
+  "props.pageProps.activeMarkets[34].displayState = IA",
+  "props.pageProps.activeMarkets[34].homesPath = /homes/des_moines_ia",
+  "props.pageProps.activeMarkets[34].identifier = des_moines_ia",
+  "props.pageProps.activeMarkets[35].displayName = Detroit, MI",
+  "props.pageProps.activeMarkets[35].displayState = MI",
+  "props.pageProps.activeMarkets[35].homesPath = /homes/detroit",
+  "props.pageProps.activeMarkets[35].identifier = detroit_mi",
+  "props.pageProps.activeMarkets[36].displayName = East Texas",
+  "props.pageProps.activeMarkets[36].displayState = TX",
+  "props.pageProps.activeMarkets[36].homesPath = /homes/east_texas",
+  "props.pageProps.activeMarkets[36].identifier = east_texas",
+  "props.pageProps.activeMarkets[37].displayName = El Paso",
+  "props.pageProps.activeMarkets[37].displayState = TX",
+  "props.pageProps.activeMarkets[37].homesPath = /homes/el_paso",
+  "props.pageProps.activeMarkets[37].identifier = el_paso",
+  "props.pageProps.activeMarkets[38].displayName = Fayetteville, AR",
+  "props.pageProps.activeMarkets[38].displayState = AR",
+  "props.pageProps.activeMarkets[38].homesPath = /homes/fayetteville_ar",
+  "props.pageProps.activeMarkets[38].identifier = fayetteville_ar",
+  "props.pageProps.activeMarkets[39].displayName = Florida Panhandle",
+  "props.pageProps.activeMarkets[39].displayState = FL",
+  "props.pageProps.activeMarkets[39].homesPath = /homes/florida_panhandle",
+  "props.pageProps.activeMarkets[39].identifier = florida_panhandle",
+  "props.pageProps.activeMarkets[40].displayName = Georgia Other",
+  "props.pageProps.activeMarkets[40].displayState = GA",
+  "props.pageProps.activeMarkets[40].homesPath = /homes/georgia_other",
+  "props.pageProps.activeMarkets[40].identifier = georgia_other",
+  "props.pageProps.activeMarkets[41].displayName = Greensboro, NC",
+  "props.pageProps.activeMarkets[41].displayState = NC",
+  "props.pageProps.activeMarkets[41].homesPath = /homes/greensboro",
+  "props.pageProps.activeMarkets[41].identifier = greensboro_nc",
+  "props.pageProps.activeMarkets[42].displayName = Greenville, SC",
+  "props.pageProps.activeMarkets[42].displayState = SC",
+  "props.pageProps.activeMarkets[42].homesPath = /homes/greenville",
+  "props.pageProps.activeMarkets[42].identifier = greenville_sc",
+  "props.pageProps.activeMarkets[43].displayName = Hartford, CT",
+  "props.pageProps.activeMarkets[43].displayState = CT",
+  "props.pageProps.activeMarkets[43].homesPath = /homes/hartford_ct",
+  "props.pageProps.activeMarkets[43].identifier = hartford_ct",
+  "props.pageProps.activeMarkets[44].displayName = Hawaii Other",
+  "props.pageProps.activeMarkets[44].displayState = HI",
+  "props.pageProps.activeMarkets[44].homesPath = /homes/hawaii_other",
+  "props.pageProps.activeMarkets[44].identifier = hawaii_other",
+  "props.pageProps.activeMarkets[45].displayName = Houston",
+  "props.pageProps.activeMarkets[45].displayState = TX",
+  "props.pageProps.activeMarkets[45].homesPath = /homes/houston",
+  "props.pageProps.activeMarkets[45].identifier = houston",
+  "props.pageProps.activeMarkets[46].displayName = Huntsville, AL",
+  "props.pageProps.activeMarkets[46].displayState = AL",
+  "props.pageProps.activeMarkets[46].homesPath = /homes/huntsville_al",
+  "props.pageProps.activeMarkets[46].identifier = huntsville_al",
+  "props.pageProps.activeMarkets[47].displayName = Idaho Other",
+  "props.pageProps.activeMarkets[47].displayState = ID",
+  "props.pageProps.activeMarkets[47].homesPath = /homes/idaho_other",
+  "props.pageProps.activeMarkets[47].identifier = idaho_other",
+  "props.pageProps.activeMarkets[48].displayName = Illinois Other",
+  "props.pageProps.activeMarkets[48].displayState = IL",
+  "props.pageProps.activeMarkets[48].homesPath = /homes/illinois_other",
+  "props.pageProps.activeMarkets[48].identifier = illinois_other",
+  "props.pageProps.activeMarkets[49].displayName = Indiana Other",
+  "props.pageProps.activeMarkets[49].displayState = IN",
+  "props.pageProps.activeMarkets[49].homesPath = /homes/indiana_other",
+  "props.pageProps.activeMarkets[49].identifier = indiana_other",
+  "props.pageProps.activeMarkets[50].displayName = Indianapolis",
+  "props.pageProps.activeMarkets[50].displayState = IN",
+  "props.pageProps.activeMarkets[50].homesPath = /homes/indianapolis",
+  "props.pageProps.activeMarkets[50].identifier = indianapolis_in",
+  "props.pageProps.activeMarkets[51].displayName = Iowa Other",
+  "props.pageProps.activeMarkets[51].displayState = IA",
+  "props.pageProps.activeMarkets[51].homesPath = /homes/iowa_other",
+  "props.pageProps.activeMarkets[51].identifier = iowa_other",
+  "props.pageProps.activeMarkets[52].displayName = Jacksonville",
+  "props.pageProps.activeMarkets[52].displayState = FL",
+  "props.pageProps.activeMarkets[52].homesPath = /homes/jacksonville",
+  "props.pageProps.activeMarkets[52].identifier = jacksonville",
+  "props.pageProps.activeMarkets[53].displayName = Johnson City - Kinsport, TN",
+  "props.pageProps.activeMarkets[53].displayState = TN",
+  "props.pageProps.activeMarkets[53].homesPath = /homes/johnson_city_tn",
+  "props.pageProps.activeMarkets[53].identifier = johnson_city_tn",
+  "props.pageProps.activeMarkets[54].displayName = Kansas City",
+  "props.pageProps.activeMarkets[54].displayState = MO",
+  "props.pageProps.activeMarkets[54].homesPath = /homes/kansas-city",
+  "props.pageProps.activeMarkets[54].identifier = kansas_city",
+  "props.pageProps.activeMarkets[55].displayName = Kansas Other",
+  "props.pageProps.activeMarkets[55].displayState = KS",
+  "props.pageProps.activeMarkets[55].homesPath = /homes/kansas_other",
+  "props.pageProps.activeMarkets[55].identifier = kansas_other",
+  "props.pageProps.activeMarkets[56].displayName = Kentucky Other",
+  "props.pageProps.activeMarkets[56].displayState = KY",
+  "props.pageProps.activeMarkets[56].homesPath = /homes/kentucky_other",
+  "props.pageProps.activeMarkets[56].identifier = kentucky_other",
+  "props.pageProps.activeMarkets[57].displayName = Killeen, TX",
+  "props.pageProps.activeMarkets[57].displayState = TX",
+  "props.pageProps.activeMarkets[57].homesPath = /homes/killeen",
+  "props.pageProps.activeMarkets[57].identifier = killeen_tx",
+  "props.pageProps.activeMarkets[58].displayName = Knoxville - Morristown, TN",
+  "props.pageProps.activeMarkets[58].displayState = TN",
+  "props.pageProps.activeMarkets[58].homesPath = /homes/knoxville",
+  "props.pageProps.activeMarkets[58].identifier = knoxville_tn",
+  "props.pageProps.activeMarkets[59].displayName = Las Vegas",
+  "props.pageProps.activeMarkets[59].displayState = NV",
+  "props.pageProps.activeMarkets[59].homesPath = /homes/las-vegas",
+  "props.pageProps.activeMarkets[59].identifier = las_vegas",
+  "props.pageProps.activeMarkets[60].displayName = Little Rock, AR",
+  "props.pageProps.activeMarkets[60].displayState = AR",
+  "props.pageProps.activeMarkets[60].homesPath = /homes/little_rock_ar",
+  "props.pageProps.activeMarkets[60].identifier = little_rock_ar",
+  "props.pageProps.activeMarkets[61].displayName = Los Angeles",
+  "props.pageProps.activeMarkets[61].displayState = CA",
+  "props.pageProps.activeMarkets[61].homesPath = /homes/los-angeles",
+  "props.pageProps.activeMarkets[61].identifier = los_angeles",
+  "props.pageProps.activeMarkets[62].displayName = Louisiana Other",
+  "props.pageProps.activeMarkets[62].displayState = LA",
+  "props.pageProps.activeMarkets[62].homesPath = /homes/louisiana_other",
+  "props.pageProps.activeMarkets[62].identifier = louisiana_other",
+  "props.pageProps.activeMarkets[63].displayName = Louisville, IN/KY",
+  "props.pageProps.activeMarkets[63].displayState = KY",
+  "props.pageProps.activeMarkets[63].homesPath = /homes/louisville_in_ky",
+  "props.pageProps.activeMarkets[63].identifier = louisville_in_ky",
+  "props.pageProps.activeMarkets[64].displayName = Maine Other",
+  "props.pageProps.activeMarkets[64].displayState = ME",
+  "props.pageProps.activeMarkets[64].homesPath = /homes/maine_other",
+  "props.pageProps.activeMarkets[64].identifier = maine_other",
+  "props.pageProps.activeMarkets[65].displayName = Maryland Other",
+  "props.pageProps.activeMarkets[65].displayState = MD",
+  "props.pageProps.activeMarkets[65].homesPath = /homes/maryland_other",
+  "props.pageProps.activeMarkets[65].identifier = maryland_other",
+  "props.pageProps.activeMarkets[66].displayName = Massachusetts Other",
+  "props.pageProps.activeMarkets[66].displayState = MA",
+  "props.pageProps.activeMarkets[66].homesPath = /homes/massachusetts_other",
+  "props.pageProps.activeMarkets[66].identifier = massachusetts_other",
+  "props.pageProps.activeMarkets[67].displayName = Memphis TN",
+  "props.pageProps.activeMarkets[67].displayState = TN",
+  "props.pageProps.activeMarkets[67].homesPath = /homes/memphis_tn",
+  "props.pageProps.activeMarkets[67].identifier = memphis_tn",
+  "props.pageProps.activeMarkets[68].displayName = Miami, FL",
+  "props.pageProps.activeMarkets[68].displayState = FL",
+  "props.pageProps.activeMarkets[68].homesPath = /homes/miami",
+  "props.pageProps.activeMarkets[68].identifier = miami_fl",
+  "props.pageProps.activeMarkets[69].displayName = Michigan Other",
+  "props.pageProps.activeMarkets[69].displayState = MI",
+  "props.pageProps.activeMarkets[69].homesPath = /homes/michigan_other",
+  "props.pageProps.activeMarkets[69].identifier = michigan_other",
+  "props.pageProps.activeMarkets[70].displayName = Milwaukee Waukesha, WI",
+  "props.pageProps.activeMarkets[70].displayState = WI",
+  "props.pageProps.activeMarkets[70].homesPath = /homes/milwaukee_waukesha_wi",
+  "props.pageProps.activeMarkets[70].identifier = milwaukee_waukesha_wi",
+  "props.pageProps.activeMarkets[71].displayName = Minneapolis-St. Paul",
+  "props.pageProps.activeMarkets[71].displayState = MN",
+  "props.pageProps.activeMarkets[71].homesPath = /homes/minneapolis-saint-paul",
+  "props.pageProps.activeMarkets[71].identifier = minneapolis",
+  "props.pageProps.activeMarkets[72].displayName = Minnesota Other",
+  "props.pageProps.activeMarkets[72].displayState = MN",
+  "props.pageProps.activeMarkets[72].homesPath = /homes/minnesota_other",
+  "props.pageProps.activeMarkets[72].identifier = minnesota_other",
+  "props.pageProps.activeMarkets[73].displayName = Mississippi Other",
+  "props.pageProps.activeMarkets[73].displayState = MS",
+  "props.pageProps.activeMarkets[73].homesPath = /homes/mississippi_other",
+  "props.pageProps.activeMarkets[73].identifier = mississippi_other",
+  "props.pageProps.activeMarkets[74].displayName = Missouri Other",
+  "props.pageProps.activeMarkets[74].displayState = MO",
+  "props.pageProps.activeMarkets[74].homesPath = /homes/missouri_other",
+  "props.pageProps.activeMarkets[74].identifier = missouri_other",
+  "props.pageProps.activeMarkets[75].displayName = Montana Other",
+  "props.pageProps.activeMarkets[75].displayState = MT",
+  "props.pageProps.activeMarkets[75].homesPath = /homes/montana_other",
+  "props.pageProps.activeMarkets[75].identifier = montana_other",
+  "props.pageProps.activeMarkets[76].displayName = Myrtle Beach, SC",
+  "props.pageProps.activeMarkets[76].displayState = SC",
+  "props.pageProps.activeMarkets[76].homesPath = /homes/myrtle_beach_sc",
+  "props.pageProps.activeMarkets[76].identifier = myrtle_beach_sc",
+  "props.pageProps.activeMarkets[77].displayName = Nashville",
+  "props.pageProps.activeMarkets[77].displayState = TN",
+  "props.pageProps.activeMarkets[77].homesPath = /homes/nashville",
+  "props.pageProps.activeMarkets[77].identifier = nashville",
+  "props.pageProps.activeMarkets[78].displayName = Nebraska Other",
+  "props.pageProps.activeMarkets[78].displayState = NE",
+  "props.pageProps.activeMarkets[78].homesPath = /homes/nebraska_other",
+  "props.pageProps.activeMarkets[78].identifier = nebraska_other",
+  "props.pageProps.activeMarkets[79].displayName = Nevada Other",
+  "props.pageProps.activeMarkets[79].displayState = NV",
+  "props.pageProps.activeMarkets[79].homesPath = /homes/nevada_other",
+  "props.pageProps.activeMarkets[79].identifier = nevada_other",
+  "props.pageProps.activeMarkets[80].displayName = New Hampshire Other",
+  "props.pageProps.activeMarkets[80].displayState = NH",
+  "props.pageProps.activeMarkets[80].homesPath = /homes/new_hampshire_other",
+  "props.pageProps.activeMarkets[80].identifier = new_hampshire_other",
+  "props.pageProps.activeMarkets[81].displayName = New Haven, CT",
+  "props.pageProps.activeMarkets[81].displayState = CT",
+  "props.pageProps.activeMarkets[81].homesPath = /homes/new_haven_ct",
+  "props.pageProps.activeMarkets[81].identifier = new_haven_ct",
+  "props.pageProps.activeMarkets[82].displayName = New Mexico Other",
+  "props.pageProps.activeMarkets[82].displayState = NM",
+  "props.pageProps.activeMarkets[82].homesPath = /homes/new_mexico_other",
+  "props.pageProps.activeMarkets[82].identifier = new_mexico_other",
+  "props.pageProps.activeMarkets[83].displayName = New Orleans, LA",
+  "props.pageProps.activeMarkets[83].displayState = LA",
+  "props.pageProps.activeMarkets[83].homesPath = /homes/new_orleans_la",
+  "props.pageProps.activeMarkets[83].identifier = new_orleans_la",
+  "props.pageProps.activeMarkets[84].displayName = New York / New Jersey",
+  "props.pageProps.activeMarkets[84].displayState = NY",
+  "props.pageProps.activeMarkets[84].homesPath = /homes/new-york-new-jersey",
+  "props.pageProps.activeMarkets[84].identifier = new_york_new_jersey",
+  "props.pageProps.activeMarkets[85].displayName = New York Other",
+  "props.pageProps.activeMarkets[85].displayState = NY",
+  "props.pageProps.activeMarkets[85].homesPath = /homes/new_york_other",
+  "props.pageProps.activeMarkets[85].identifier = new_york_other",
+  "props.pageProps.activeMarkets[86].displayName = North Carolina Other",
+  "props.pageProps.activeMarkets[86].displayState = NC",
+  "props.pageProps.activeMarkets[86].homesPath = /homes/north_carolina_other",
+  "props.pageProps.activeMarkets[86].identifier = north_carolina_other",
+  "props.pageProps.activeMarkets[87].displayName = North Dakota Other",
+  "props.pageProps.activeMarkets[87].displayState = ND",
+  "props.pageProps.activeMarkets[87].homesPath = /homes/north_dakota_other",
+  "props.pageProps.activeMarkets[87].identifier = north_dakota_other",
+  "props.pageProps.activeMarkets[88].displayName = Northern Colorado",
+  "props.pageProps.activeMarkets[88].displayState = CO",
+  "props.pageProps.activeMarkets[88].homesPath = /homes/northern-colorado",
+  "props.pageProps.activeMarkets[88].identifier = northern_colorado",
+  "props.pageProps.activeMarkets[89].displayName = Ohio Other",
+  "props.pageProps.activeMarkets[89].displayState = OH",
+  "props.pageProps.activeMarkets[89].homesPath = /homes/ohio_other",
+  "props.pageProps.activeMarkets[89].identifier = ohio_other",
+  "props.pageProps.activeMarkets[90].displayName = Oklahoma City, OK",
+  "props.pageProps.activeMarkets[90].displayState = OK",
+  "props.pageProps.activeMarkets[90].homesPath = /homes/oklahoma-city",
+  "props.pageProps.activeMarkets[90].identifier = oklahoma_city_ok",
+  "props.pageProps.activeMarkets[91].displayName = Oklahoma Other",
+  "props.pageProps.activeMarkets[91].displayState = OK",
+  "props.pageProps.activeMarkets[91].homesPath = /homes/oklahoma_other",
+  "props.pageProps.activeMarkets[91].identifier = oklahoma_other",
+  "props.pageProps.activeMarkets[92].displayName = Omaha, NE",
+  "props.pageProps.activeMarkets[92].displayState = NE",
+  "props.pageProps.activeMarkets[92].homesPath = /homes/omaha_ne",
+  "props.pageProps.activeMarkets[92].identifier = omaha_ne",
+  "props.pageProps.activeMarkets[93].displayName = Oregon Other",
+  "props.pageProps.activeMarkets[93].displayState = OR",
+  "props.pageProps.activeMarkets[93].homesPath = /homes/oregon_other",
+  "props.pageProps.activeMarkets[93].identifier = oregon_other",
+  "props.pageProps.activeMarkets[94].displayName = Orlando",
+  "props.pageProps.activeMarkets[94].displayState = FL",
+  "props.pageProps.activeMarkets[94].homesPath = /homes/orlando",
+  "props.pageProps.activeMarkets[94].identifier = orlando",
+  "props.pageProps.activeMarkets[95].displayName = Palm Bay, FL",
+  "props.pageProps.activeMarkets[95].displayState = FL",
+  "props.pageProps.activeMarkets[95].homesPath = /homes/palm_bay_fl",
+  "props.pageProps.activeMarkets[95].identifier = palm_bay_fl",
+  "props.pageProps.activeMarkets[96].displayName = Pennsylvania Other",
+  "props.pageProps.activeMarkets[96].displayState = PA",
+  "props.pageProps.activeMarkets[96].homesPath = /homes/pennsylvania_other",
+  "props.pageProps.activeMarkets[96].identifier = pennsylvania_other",
+  "props.pageProps.activeMarkets[97].displayName = Philadelphia, PA",
+  "props.pageProps.activeMarkets[97].displayState = PA",
+  "props.pageProps.activeMarkets[97].homesPath = /homes/philadelphia_pa",
+  "props.pageProps.activeMarkets[97].identifier = philadelphia_pa",
+  "props.pageProps.activeMarkets[98].displayName = Phoenix",
+  "props.pageProps.activeMarkets[98].displayState = AZ",
+  "props.pageProps.activeMarkets[98].homesPath = /homes/phoenix",
+  "props.pageProps.activeMarkets[98].identifier = phoenix",
+  "props.pageProps.activeMarkets[99].displayName = Pittsburgh, PA",
+  "props.pageProps.activeMarkets[99].displayState = PA",
+  "props.pageProps.activeMarkets[99].homesPath = /homes/pittsburgh_pa",
+  "props.pageProps.activeMarkets[99].identifier = pittsburgh_pa",
+  "props.pageProps.activeMarkets[100].displayName = Portland",
+  "props.pageProps.activeMarkets[100].displayState = OR",
+  "props.pageProps.activeMarkets[100].homesPath = /homes/portland",
+  "props.pageProps.activeMarkets[100].identifier = portland",
+  "props.pageProps.activeMarkets[101].displayName = Prescott Valley - Prescott, AZ",
+  "props.pageProps.activeMarkets[101].displayState = AZ",
+  "props.pageProps.activeMarkets[101].homesPath = /homes/prescott",
+  "props.pageProps.activeMarkets[101].identifier = prescott_az",
+  "props.pageProps.activeMarkets[102].displayName = Providence, RI",
+  "props.pageProps.activeMarkets[102].displayState = RI",
+  "props.pageProps.activeMarkets[102].homesPath = /homes/providence_ri",
+  "props.pageProps.activeMarkets[102].identifier = providence_ri",
+  "props.pageProps.activeMarkets[103].displayName = Puerto Rico Other",
+  "props.pageProps.activeMarkets[103].displayState = PR",
+  "props.pageProps.activeMarkets[103].homesPath = /homes/puerto_rico_other",
+  "props.pageProps.activeMarkets[103].identifier = puerto_rico_other",
+  "props.pageProps.activeMarkets[104].displayName = Raleigh-Durham",
+  "props.pageProps.activeMarkets[104].displayState = NC",
+  "props.pageProps.activeMarkets[104].homesPath = /homes/raleigh-durham",
+  "props.pageProps.activeMarkets[104].identifier = raleigh",
+  "props.pageProps.activeMarkets[105].displayName = Reno, NV",
+  "props.pageProps.activeMarkets[105].displayState = NV",
+  "props.pageProps.activeMarkets[105].homesPath = /homes/reno",
+  "props.pageProps.activeMarkets[105].identifier = reno_nv",
+  "props.pageProps.activeMarkets[106].displayName = Richmond, VA",
+  "props.pageProps.activeMarkets[106].displayState = VA",
+  "props.pageProps.activeMarkets[106].homesPath = /homes/richmond",
+  "props.pageProps.activeMarkets[106].identifier = richmond_va",
+  "props.pageProps.activeMarkets[107].displayName = Riverside",
+  "props.pageProps.activeMarkets[107].displayState = CA",
+  "props.pageProps.activeMarkets[107].homesPath = /homes/riverside",
+  "props.pageProps.activeMarkets[107].identifier = riverside",
+  "props.pageProps.activeMarkets[108].displayName = Sacramento",
+  "props.pageProps.activeMarkets[108].displayState = CA",
+  "props.pageProps.activeMarkets[108].homesPath = /homes/sacramento",
+  "props.pageProps.activeMarkets[108].identifier = sacramento",
+  "props.pageProps.activeMarkets[109].displayName = Salisbury, MD",
+  "props.pageProps.activeMarkets[109].displayState = MD",
+  "props.pageProps.activeMarkets[109].homesPath = /homes/salisbury_md",
+  "props.pageProps.activeMarkets[109].identifier = salisbury_md",
+  "props.pageProps.activeMarkets[110].displayName = Salt Lake City",
+  "props.pageProps.activeMarkets[110].displayState = UT",
+  "props.pageProps.activeMarkets[110].homesPath = /homes/salt-lake-city",
+  "props.pageProps.activeMarkets[110].identifier = salt_lake_city",
+  "props.pageProps.activeMarkets[111].displayName = San Antonio",
+  "props.pageProps.activeMarkets[111].displayState = TX",
+  "props.pageProps.activeMarkets[111].homesPath = /homes/san-antonio",
+  "props.pageProps.activeMarkets[111].identifier = san_antonio",
+  "props.pageProps.activeMarkets[112].displayName = San Diego",
+  "props.pageProps.activeMarkets[112].displayState = CA",
+  "props.pageProps.activeMarkets[112].homesPath = /homes/san-diego",
+  "props.pageProps.activeMarkets[112].identifier = san_diego_ca",
+  "props.pageProps.activeMarkets[113].displayName = Savannah, GA",
+  "props.pageProps.activeMarkets[113].displayState = GA",
+  "props.pageProps.activeMarkets[113].homesPath = /homes/savannah_ga",
+  "props.pageProps.activeMarkets[113].identifier = savannah_ga",
+  "props.pageProps.activeMarkets[114].displayName = Seattle, WA",
+  "props.pageProps.activeMarkets[114].displayState = WA",
+  "props.pageProps.activeMarkets[114].homesPath = /homes/seattle_wa",
+  "props.pageProps.activeMarkets[114].identifier = seattle_wa",
+  "props.pageProps.activeMarkets[115].displayName = San Francisco Bay Area",
+  "props.pageProps.activeMarkets[115].displayState = CA",
+  "props.pageProps.activeMarkets[115].homesPath = /homes/san-francisco-bay-area",
+  "props.pageProps.activeMarkets[115].identifier = sf_bay_area",
+  "props.pageProps.activeMarkets[116].displayName = South Carolina Other",
+  "props.pageProps.activeMarkets[116].displayState = SC",
+  "props.pageProps.activeMarkets[116].homesPath = /homes/south_carolina_other",
+  "props.pageProps.activeMarkets[116].identifier = south_carolina_other",
+  "props.pageProps.activeMarkets[117].displayName = South Dakota Other",
+  "props.pageProps.activeMarkets[117].displayState = SD",
+  "props.pageProps.activeMarkets[117].homesPath = /homes/south_dakota_other",
+  "props.pageProps.activeMarkets[117].identifier = south_dakota_other",
+  "props.pageProps.activeMarkets[118].displayName = South Texas",
+  "props.pageProps.activeMarkets[118].displayState = TX",
+  "props.pageProps.activeMarkets[118].homesPath = /homes/south_texas",
+  "props.pageProps.activeMarkets[118].identifier = south_texas",
+  "props.pageProps.activeMarkets[119].displayName = Southwest Florida, FL",
+  "props.pageProps.activeMarkets[119].displayState = FL",
+  "props.pageProps.activeMarkets[119].homesPath = /homes/southwest-florida",
+  "props.pageProps.activeMarkets[119].identifier = southwest_fl",
+  "props.pageProps.activeMarkets[120].displayName = Springfield Mo",
+  "props.pageProps.activeMarkets[120].displayState = MO",
+  "props.pageProps.activeMarkets[120].homesPath = /homes/springfield_mo",
+  "props.pageProps.activeMarkets[120].identifier = springfield_mo",
+  "props.pageProps.activeMarkets[121].displayName = St. Louis",
+  "props.pageProps.activeMarkets[121].displayState = MO",
+  "props.pageProps.activeMarkets[121].homesPath = /homes/st-louis",
+  "props.pageProps.activeMarkets[121].identifier = st_louis",
+  "props.pageProps.activeMarkets[122].displayName = Tampa",
+  "props.pageProps.activeMarkets[122].displayState = FL",
+  "props.pageProps.activeMarkets[122].homesPath = /homes/tampa",
+  "props.pageProps.activeMarkets[122].identifier = tampa",
+  "props.pageProps.activeMarkets[123].displayName = Tennessee Other",
+  "props.pageProps.activeMarkets[123].displayState = TN",
+  "props.pageProps.activeMarkets[123].homesPath = /homes/tennessee_other",
+  "props.pageProps.activeMarkets[123].identifier = tennessee_other",
+  "props.pageProps.activeMarkets[124].displayName = Tucson",
+  "props.pageProps.activeMarkets[124].displayState = AZ",
+  "props.pageProps.activeMarkets[124].homesPath = /homes/tucson",
+  "props.pageProps.activeMarkets[124].identifier = tucson",
+  "props.pageProps.activeMarkets[125].displayName = Tulsa",
+  "props.pageProps.activeMarkets[125].displayState = tulsa",
+  "props.pageProps.activeMarkets[125].homesPath = /homes/tulsa",
+  "props.pageProps.activeMarkets[125].identifier = tulsa",
+  "props.pageProps.activeMarkets[126].displayName = Tulsa, OK",
+  "props.pageProps.activeMarkets[126].displayState = OK",
+  "props.pageProps.activeMarkets[126].homesPath = /homes/tulsa_ok",
+  "props.pageProps.activeMarkets[126].identifier = tulsa_ok",
+  "props.pageProps.activeMarkets[127].displayName = Utah Other",
+  "props.pageProps.activeMarkets[127].displayState = UT",
+  "props.pageProps.activeMarkets[127].homesPath = /homes/utah_other",
+  "props.pageProps.activeMarkets[127].identifier = utah_other",
+  "props.pageProps.activeMarkets[128].displayName = Vermont Other",
+  "props.pageProps.activeMarkets[128].displayState = VT",
+  "props.pageProps.activeMarkets[128].homesPath = /homes/vermont_other",
+  "props.pageProps.activeMarkets[128].identifier = vermont_other",
+  "props.pageProps.activeMarkets[129].displayName = Virginia Beach, VA",
+  "props.pageProps.activeMarkets[129].displayState = VA",
+  "props.pageProps.activeMarkets[129].homesPath = /homes/virginia_beach_va",
+  "props.pageProps.activeMarkets[129].identifier = virginia_beach_va",
+  "props.pageProps.activeMarkets[130].displayName = Virginia Other",
+  "props.pageProps.activeMarkets[130].displayState = VA",
+  "props.pageProps.activeMarkets[130].homesPath = /homes/virginia_other",
+  "props.pageProps.activeMarkets[130].identifier = virginia_other",
+  "props.pageProps.activeMarkets[131].displayName = Washington, DC",
+  "props.pageProps.activeMarkets[131].displayState = DC",
+  "props.pageProps.activeMarkets[131].homesPath = /homes/washington-dc",
+  "props.pageProps.activeMarkets[131].identifier = washington_dc",
+  "props.pageProps.activeMarkets[132].displayName = Washington Other",
+  "props.pageProps.activeMarkets[132].displayState = WA",
+  "props.pageProps.activeMarkets[132].homesPath = /homes/washington_other",
+  "props.pageProps.activeMarkets[132].identifier = washington_other",
+  "props.pageProps.activeMarkets[133].displayName = Western MD",
+  "props.pageProps.activeMarkets[133].displayState = MD",
+  "props.pageProps.activeMarkets[133].homesPath = /homes/western_md",
+  "props.pageProps.activeMarkets[133].identifier = western_md",
+  "props.pageProps.activeMarkets[134].displayName = Western Ny",
+  "props.pageProps.activeMarkets[134].displayState = NY",
+  "props.pageProps.activeMarkets[134].homesPath = /homes/western_ny",
+  "props.pageProps.activeMarkets[134].identifier = western_ny",
+  "props.pageProps.activeMarkets[135].displayName = West Texas",
+  "props.pageProps.activeMarkets[135].displayState = TX",
+  "props.pageProps.activeMarkets[135].homesPath = /homes/west_texas",
+  "props.pageProps.activeMarkets[135].identifier = west_texas",
+  "props.pageProps.activeMarkets[136].displayName = West Virginia Other",
+  "props.pageProps.activeMarkets[136].displayState = WV",
+  "props.pageProps.activeMarkets[136].homesPath = /homes/west_virginia_other",
+  "props.pageProps.activeMarkets[136].identifier = west_virginia_other",
+  "props.pageProps.activeMarkets[137].displayName = Wichita Ks",
+  "props.pageProps.activeMarkets[137].displayState = KS",
+  "props.pageProps.activeMarkets[137].homesPath = /homes/wichita_ks",
+  "props.pageProps.activeMarkets[137].identifier = wichita_ks",
+  "props.pageProps.activeMarkets[138].displayName = Wisconsin Other",
+  "props.pageProps.activeMarkets[138].displayState = WI",
+  "props.pageProps.activeMarkets[138].homesPath = /homes/wisconsin_other",
+  "props.pageProps.activeMarkets[138].identifier = wisconsin_other",
+  "props.pageProps.activeMarkets[139].displayName = Wyoming Other",
+  "props.pageProps.activeMarkets[139].displayState = WY",
+  "props.pageProps.activeMarkets[139].homesPath = /homes/wyoming_other",
+  "props.pageProps.activeMarkets[139].identifier = wyoming_other",
+  "props.pageProps.canonicalOverride = /homes",
+  "props.pageProps.savedSearchId = None",
+  "props.pageProps.initialZoneIds = None",
+  "props.pageProps.initialViewportAreaName = None",
+  "props.pageProps.ssrListingCount = None",
+  "props.isBot = True",
+  "props.originPath = /homes",
+  "props.originUrl = https://www.opendoor.com/homes",
+  "props.cosmosPathname = /homes",
+  "props.__N_SSP = True",
+  "page = /homes",
+  "query.m = iowa_other",
+  "buildId = 4gm6xXRf7ZkFX55bHuezY",
+  "assetPrefix = https://cdn-cosmos.opendoor.com/952965e34a8039f453b90a9d3132",
+  "isFallback = False",
+  "isExperimentalCompile = False",
+  "gssp = True",
+  "appGip = True"
+ ],
+ "scripts_json_attrs": [
+  " id=\"__NEXT_DATA__\" type=\"application/json\" crossorigin=\"anonymous\""
+ ],
+ "texto_plano_inicio": " Homes for sale. Tour one today. | Opendoor Skip to main content Sell Buy Agents Mortgage Location List 0 homes Popular Markets Sell your home in Iowa Other Homes for sale near me Houses for sale in Alabama Other Houses for sale in Alaska Other Houses for sale in Albuquerque, NM Houses for sale in Allentown, PA Houses for sale in Arizona Other Houses for sale in Arkansas Other Houses for sale in Asheville, NC Houses for sale in Atlanta Houses for sale in Austin Houses for sale in Bakersfield, CA Houses for sale in Baltimore, MD Houses for sale in Birmingham, AL Houses for sale in Boise Houses for sale in Boston, MA Houses for sale in Bridgeport, CT Houses for sale in California Other Houses for sale in Central California, CA Houses for sale in Charleston, SC Houses for sale in Charlotte Houses for sale in Chattanooga, TN/GA Houses for sale in Chicago, IL Houses for sale in Cincinnati, OH Houses for sale in Clarksville Ky Tn Houses for sale in Cleveland, OH Houses for sale in Colorado Other Houses for sale in Colorado Springs, CO Houses for sale in Columbia, SC Houses for sale in Columbus Houses for sale in Connecticut Other Houses for sale in Corpus Christi, TX Houses for sale in Dallas-Fort Worth Houses for sale in Default Houses for sale in Delaware Other Houses for sale in Denver Houses for sale in Des Moines, IA Houses for sale in Detroit, MI Houses for sale in East Texas Houses for sale in El Paso Houses for sale in Fayetteville, AR Houses for sale in Florida Panhandle Houses for sale in Georgia Other Houses for sale in Greensboro, NC Houses for sale in Greenville, SC Houses for sale in Hartford, CT Houses for sale in Hawaii Other Houses for sale in Houston Houses for sale in Huntsville, AL Houses for sale in Idaho Other Houses for sale in Illinois Other Houses for sale in Indiana Other Houses for sale in Indianapolis Houses for sale in Iowa Other Houses for sale in Jacksonville Houses for sale in Johnson City - Kinsport, TN Houses for sale in Kansas City Houses for sale in Kansas Other Houses for sale in Kentucky Other Houses for sale in Killeen, TX Houses for sale in Knoxville - Morristown, TN Houses for sale in Las Vegas Houses for sale in Little Rock, AR Houses for sale in Los Angeles Houses for sale in Louisiana Other Houses for sale in Louisville, IN/KY Houses for sale in Maine Other Houses for sale in Maryland Other Houses for sale in Massachusetts Other Houses for sale in Memphis TN Houses for sale in Miami, FL Houses for sale in Michigan Other Houses for sale in Milwaukee Waukesha, WI Houses for sale in Minneapolis-St. Paul Houses for sale in Minnesota Other Houses for sale in Mississippi Other Houses for sale in Missouri Other Houses for sale in Montana Other Houses for sale in Myrtle Beach, SC Houses for sale in Nashville Houses for sale in Nebraska Other Houses for sale in Nevada Other Houses for sale in New Hampshire Other Houses for sale in New Haven, CT Houses for sale in New Mexico Other Houses for sale in New Orleans, LA Houses for sale in New York / New Jersey Houses for sale in New York Other Houses for sale in North Carolina Other Houses for sale in North Dakota Other Houses for sale in Northern Colorado Houses for sale in Ohio Other Houses for sale in Oklahoma City, OK Houses for sale in Oklahoma Other Houses for sale in Omaha, NE Houses for sale in Oregon Other Houses for sale in Orlando Houses for sale in Palm Bay, FL Houses for sale in Pennsylvania Other Houses for sale in Philadelphia, PA Houses for sale in Phoenix Houses for sale in Pittsburgh, PA Houses for sale in Portland Houses for sale in Prescott Valley - Prescott, AZ Houses for sale in Providence, RI Houses for sale in Puerto Rico Other Houses for sale in Raleigh-Durham Houses for sale in Reno, NV Houses for sale in Richmond, VA Houses for sale in Riverside Houses for sale in Sacramento Houses for sale in Salisbury, MD Houses for sale in Salt Lake City Houses for sale in San Antonio Houses for sale in San Diego Houses for sale in Savannah, GA Houses for sale in Seattle, WA Houses for sale in San Francisco Bay Area Houses for sale in South Carolina Other Houses for sale in South Dakota Other Houses for sale in South Texas Houses for sale in Southwest Florida, FL Houses for sale in Springfield Mo Houses for sale in St. Louis Houses for sale in Tampa Houses for sale in Tennessee Other Houses for sale in Tucson Houses for sale in Tulsa Houses for sale in Tulsa, OK Houses for sale in Utah Other Houses for sale in Vermont Other Houses for sale in Virginia Beach, VA Houses for sale in Virginia Other Houses for sale in Washington, DC Houses for sale in Washington Other Houses for sale in Western MD Houses for sale in Western Ny Houses for sale in West Texas Houses for sale in West Virginia Other Houses for sale in Wichita Ks Houses for sale in Wisconsin Other Houses for sale in Wyoming Other Map Price Beds/Baths Filters 0 homes for sale near Iowa Other Sort: Newest Popular Markets Sell your home in Iowa Other Homes for sale near me Houses for sale in Alabama Other Houses for sale in Alaska Other Houses for sale in Albuquerque, NM Houses for sale in Allentown, PA Houses for sale in Arizona Other Houses for sale in Arkansas Other Houses for sale in Asheville, NC Houses for sale in Atlanta Houses for sale in Austin Houses for sale in Bakersfield, CA Houses for sale in Baltimore, MD Houses for sale in Birmingham, AL Houses for sale in Boise Houses for sale in Boston, MA Houses for sale in Bridgeport, CT Houses for sale in California Other Houses for sale in Central California, CA Houses for sale in Charleston, SC Houses for sale in Charlotte Houses for sale in Chattanooga, TN/GA Houses for sale in Chicago, IL Houses for sale in Cincinnati, OH Houses for sale in Clarksville Ky Tn Houses for sale in Cleveland, OH Houses for sale in Colorado Other Houses for sale in Colorado Springs, CO Houses for sale in Columbia, SC Houses for sale in Columbus Houses for sale in Connecticut Other Houses for sale in Corpus Christi"
+}
