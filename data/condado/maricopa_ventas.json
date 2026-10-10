@@ -180,5 +180,57 @@
   "venta_escritura": "20260562707",
   "venta_f": "2026-09-25",
   "venta_p": null
+ },
+ {
+  "apn": "10285584",
+  "ciudad": "Phoenix",
+  "compra_f": "2026-07-22",
+  "compra_p": 349200,
+  "cp": "85037",
+  "detectada": "2026-10-10",
+  "dias": 65,
+  "sqft": 1601,
+  "venta_escritura": "20260562632",
+  "venta_f": "2026-09-25",
+  "venta_p": null
+ },
+ {
+  "apn": "14170598",
+  "ciudad": "Mesa",
+  "compra_f": "2026-03-26",
+  "compra_p": 413200,
+  "cp": "85215",
+  "detectada": "2026-10-10",
+  "dias": 190,
+  "sqft": 1446,
+  "venta_escritura": "20260575604",
+  "venta_f": "2026-10-02",
+  "venta_p": null
+ },
+ {
+  "apn": "20739420",
+  "ciudad": "Phoenix",
+  "compra_f": "2026-07-14",
+  "compra_p": 459600,
+  "cp": "85053",
+  "detectada": "2026-10-10",
+  "dias": 76,
+  "sqft": 2110,
+  "venta_escritura": "20260564709",
+  "venta_f": "2026-09-28",
+  "venta_p": null
+ },
+ {
+  "apn": "50201634",
+  "ciudad": "Surprise",
+  "compra_f": "2026-05-27",
+  "compra_p": 405000,
+  "cp": "85388",
+  "detectada": "2026-10-10",
+  "dias": 124,
+  "sqft": 2429,
+  "venta_escritura": "20260565221",
+  "venta_f": "2026-09-28",
+  "venta_p": null
  }
 ]
