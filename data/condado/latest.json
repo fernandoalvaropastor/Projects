@@ -2,11 +2,11 @@
  "aviso": "Registros publicos de los condados. El catastro va con ~2 semanas de retraso sobre el registro. Hipotecas de Opendoor Home Loans: solo Maricopa, no es el volumen nacional. Margen bruto = venta - compra, sin reformas, comisiones ni costes de tenencia. Texas no publica precios de venta.",
  "condados": [
   {
-   "altas": 7,
-   "bajas": 4,
+   "altas": 0,
+   "bajas": 0,
    "casas": 307,
    "ciudad": "Phoenix",
-   "dias_en_cartera_mediana": 88,
+   "dias_en_cartera_mediana": 89,
    "estado": "AZ",
    "historial": [
     [
@@ -55,6 +55,10 @@
     ],
     [
      "2026-10-10",
+     307
+    ],
+    [
+     "2026-10-11",
      307
     ]
    ],
@@ -119,6 +123,10 @@
     [
      "2026-10-10",
      66
+    ],
+    [
+     "2026-10-11",
+     66
     ]
    ],
    "id": "pima_az",
@@ -132,7 +140,7 @@
    "bajas": 0,
    "casas": 164,
    "ciudad": "Houston",
-   "dias_en_cartera_mediana": 189.5,
+   "dias_en_cartera_mediana": 190.5,
    "estado": "TX",
    "historial": [
     [
@@ -182,6 +190,10 @@
     [
      "2026-10-10",
      164
+    ],
+    [
+     "2026-10-11",
+     164
     ]
    ],
    "id": "harris_tx",
@@ -195,7 +207,7 @@
    "bajas": 0,
    "casas": 98,
    "ciudad": "Dallas norte",
-   "dias_en_cartera_mediana": 94.5,
+   "dias_en_cartera_mediana": 95.5,
    "estado": "TX",
    "historial": [
     [
@@ -244,6 +256,10 @@
     ],
     [
      "2026-10-10",
+     98
+    ],
+    [
+     "2026-10-11",
      98
     ]
    ],
@@ -308,6 +324,10 @@
     [
      "2026-10-10",
      62
+    ],
+    [
+     "2026-10-11",
+     62
     ]
    ],
    "id": "denton_tx",
@@ -370,6 +390,10 @@
     ],
     [
      "2026-10-10",
+     32
+    ],
+    [
+     "2026-10-11",
      32
     ]
    ],
@@ -434,6 +458,10 @@
     [
      "2026-10-10",
      17
+    ],
+    [
+     "2026-10-11",
+     17
     ]
    ],
    "id": "fortbend_tx",
@@ -444,7 +472,7 @@
   }
  ],
  "errores": {},
- "fecha": "2026-10-10",
+ "fecha": "2026-10-11",
  "llamadas": {
   "collin_tx": 1,
   "denton_tx": 1,
@@ -452,26 +480,26 @@
   "fred": 14,
   "harris_tx": 1,
   "maricopa_az": 1,
-  "maricopa_catastro": 8,
-  "maricopa_registro": 16,
+  "maricopa_catastro": 4,
+  "maricopa_registro": 14,
   "pima_az": 1,
   "williamson_tx": 1
  },
  "maricopa": {
   "anuncios_vs_titulo": {
-   "anuncios_maricopa": 206,
-   "cartera_sin_anunciar": 119,
+   "anuncios_maricopa": 207,
+   "cartera_sin_anunciar": 118,
    "cartera_total": 307,
    "clases": {
     "comprada_reciente": 6,
-    "en_cartera": 188,
+    "en_cartera": 189,
     "sin_parcela": 1,
     "sin_titulo_od": 11
    },
-   "comprobados": 206,
+   "comprobados": 207,
    "consultas_hoy": 1,
    "nota": "Anuncios de Arizona con CP 850/852/853 (aprox. Maricopa). 'en_cartera': la parcela es de Opendoor en el catastro. 'comprada_reciente': el catastro aun no lo refleja pero hay una escritura reciente de Opendoor con el dueno anterior. 'sin_titulo_od': Opendoor la anuncia pero los registros no la ponen a su nombre (posible venta por cuenta del propietario, o escritura aun no indexada). Retraso del catastro: ~2 semanas.",
-   "pct_titulo_od": 94.6
+   "pct_titulo_od": 94.7
   },
   "cartera": {
    "ano_mediana": 2002.0,
@@ -492,7 +520,7 @@
    },
    "coste_base": 247,
    "coste_total": 119876130,
-   "dias_en_cartera_mediana": 88,
+   "dias_en_cartera_mediana": 89,
    "mas_de_90_dias_pct": 48.5,
    "por_entidad": {
     "OPENDOOR LLC": 1,
@@ -506,11 +534,11 @@
    "precio_sobre_valor_fiscal": 1.141,
    "reparto_dias_en_cartera": {
     "0-30": 47,
-    "181-365": 23,
-    "31-60": 64,
+    "181-365": 25,
+    "31-60": 61,
     "365+": 12,
-    "61-90": 47,
-    "91-180": 114
+    "61-90": 50,
+    "91-180": 112
    },
    "reparto_precio": {
     "250-300k": 15,
@@ -520,7 +548,7 @@
     "750k+": 20,
     "<250k": 8
    },
-   "retraso_catastro_dias": 8,
+   "retraso_catastro_dias": 9,
    "sqft_mediana": 1902.5,
    "ultima_escritura_catastro": "2026-10-02"
   },
@@ -2305,5 +2333,5 @@
    }
   ]
  },
- "obtenido_utc": "2026-10-10T18:53:15+00:00"
+ "obtenido_utc": "2026-10-11T19:14:47+00:00"
 }
