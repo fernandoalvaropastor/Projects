@@ -34,6 +34,12 @@ jobs:
         timeout-minutes: 60
         run: python scripts/registros.py
 
+      - name: 3 · Ritmo de salidas, supervivencia, precios y censo de salidas
+        # Aditivo: lee lo que dejaron los pasos 1 y 2 y anade la clave "ventas" al panel.
+        continue-on-error: true
+        timeout-minutes: 15
+        run: python scripts/ventas.py
+
       - name: Guardar el resultado en el repositorio
         if: always()
         run: |
