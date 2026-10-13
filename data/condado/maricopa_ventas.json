@@ -232,5 +232,70 @@
   "venta_escritura": "20260565221",
   "venta_f": "2026-09-28",
   "venta_p": null
+ },
+ {
+  "apn": "20103476",
+  "ciudad": "Peoria",
+  "compra_f": "2026-07-22",
+  "compra_p": 456700,
+  "cp": "85383",
+  "detectada": "2026-10-13",
+  "dias": 69,
+  "sqft": 1885,
+  "venta_escritura": "20260567087",
+  "venta_f": "2026-09-29",
+  "venta_p": null
+ },
+ {
+  "apn": "21732325",
+  "ciudad": "Scottsdale",
+  "compra_f": "2026-07-29",
+  "compra_p": 1780000,
+  "cp": "85259",
+  "detectada": "2026-10-13",
+  "dias": 62,
+  "sqft": 3736,
+  "venta_escritura": "20260568208",
+  "venta_f": "2026-09-29",
+  "venta_p": null
+ },
+ {
+  "apn": "30301277",
+  "ciudad": "Chandler",
+  "compra_f": "2026-05-29",
+  "compra_p": 428500,
+  "cp": "85225",
+  "detectada": "2026-10-13",
+  "dias": 123,
+  "sqft": 1168,
+  "venta_escritura": "20260568736",
+  "venta_f": "2026-09-29",
+  "venta_p": null
+ },
+ {
+  "apn": "30301639",
+  "ciudad": "Chandler",
+  "compra_f": "2026-06-02",
+  "compra_p": 392400,
+  "cp": "85225",
+  "detectada": "2026-10-13",
+  "dias": 119,
+  "sqft": 1215,
+  "venta_escritura": "20260569108",
+  "venta_f": "2026-09-29",
+  "venta_p": null
+ },
+ {
+  "apn": "50291070",
+  "ciudad": "Waddell",
+  "compra_f": "2026-06-17",
+  "compra_p": 416000,
+  "cp": "85355",
+  "detectada": "2026-10-13",
+  "dias": 104,
+  "sqft": 2687,
+  "venta_escritura": "20260568824",
+  "venta_f": "2026-09-29",
+  "venta_p": null
  }
 ]
