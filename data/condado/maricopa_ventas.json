@@ -297,5 +297,31 @@
   "venta_escritura": "20260568824",
   "venta_f": "2026-09-29",
   "venta_p": null
+ },
+ {
+  "apn": "30459066",
+  "ciudad": "Gilbert",
+  "compra_f": "2026-08-27",
+  "compra_p": 1084100,
+  "cp": "85297",
+  "detectada": "2026-10-14",
+  "dias": 34,
+  "sqft": 2293,
+  "venta_escritura": "20260570844",
+  "venta_f": "2026-09-30",
+  "venta_p": null
+ },
+ {
+  "apn": "31330251",
+  "ciudad": "Queen Creek",
+  "compra_f": "2026-08-26",
+  "compra_p": 508500,
+  "cp": "85142",
+  "detectada": "2026-10-14",
+  "dias": 35,
+  "sqft": 2308,
+  "venta_escritura": "20260570803",
+  "venta_f": "2026-09-30",
+  "venta_p": null
  }
 ]
