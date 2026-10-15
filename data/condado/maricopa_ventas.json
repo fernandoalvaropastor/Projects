@@ -323,5 +323,31 @@
   "venta_escritura": "20260570803",
   "venta_f": "2026-09-30",
   "venta_p": null
+ },
+ {
+  "apn": "30457840",
+  "ciudad": "Gilbert",
+  "compra_f": "2026-06-30",
+  "compra_p": 709300,
+  "cp": "85297",
+  "detectada": "2026-10-15",
+  "dias": 92,
+  "sqft": 2945,
+  "venta_escritura": "20260571623",
+  "venta_f": "2026-09-30",
+  "venta_p": null
+ },
+ {
+  "apn": "40051012U",
+  "ciudad": "Buckeye",
+  "compra_f": "2026-04-27",
+  "compra_p": 518700,
+  "cp": "85326",
+  "detectada": "2026-10-15",
+  "dias": 148,
+  "sqft": 1917,
+  "venta_escritura": "20260555794",
+  "venta_f": "2026-09-22",
+  "venta_p": null
  }
 ]
