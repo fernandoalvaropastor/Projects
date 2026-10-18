@@ -6,7 +6,7 @@
    "bajas": 0,
    "casas": 306,
    "ciudad": "Phoenix",
-   "dias_en_cartera_mediana": 90.5,
+   "dias_en_cartera_mediana": 91.5,
    "estado": "AZ",
    "historial": [
     [
@@ -83,6 +83,10 @@
     ],
     [
      "2026-10-17",
+     306
+    ],
+    [
+     "2026-10-18",
      306
     ]
    ],
@@ -175,6 +179,10 @@
     [
      "2026-10-17",
      66
+    ],
+    [
+     "2026-10-18",
+     66
     ]
    ],
    "id": "pima_az",
@@ -188,7 +196,7 @@
    "bajas": 0,
    "casas": 167,
    "ciudad": "Houston",
-   "dias_en_cartera_mediana": 175,
+   "dias_en_cartera_mediana": 176,
    "estado": "TX",
    "historial": [
     [
@@ -265,6 +273,10 @@
     ],
     [
      "2026-10-17",
+     167
+    ],
+    [
+     "2026-10-18",
      167
     ]
    ],
@@ -279,7 +291,7 @@
    "bajas": 0,
    "casas": 98,
    "ciudad": "Dallas norte",
-   "dias_en_cartera_mediana": 94.5,
+   "dias_en_cartera_mediana": 95.5,
    "estado": "TX",
    "historial": [
     [
@@ -356,6 +368,10 @@
     ],
     [
      "2026-10-17",
+     98
+    ],
+    [
+     "2026-10-18",
      98
     ]
    ],
@@ -448,6 +464,10 @@
     [
      "2026-10-17",
      62
+    ],
+    [
+     "2026-10-18",
+     62
     ]
    ],
    "id": "denton_tx",
@@ -538,6 +558,10 @@
     ],
     [
      "2026-10-17",
+     32
+    ],
+    [
+     "2026-10-18",
      32
     ]
    ],
@@ -630,6 +654,10 @@
     [
      "2026-10-17",
      17
+    ],
+    [
+     "2026-10-18",
+     17
     ]
    ],
    "id": "fortbend_tx",
@@ -640,7 +668,7 @@
   }
  ],
  "errores": {},
- "fecha": "2026-10-17",
+ "fecha": "2026-10-18",
  "llamadas": {
   "collin_tx": 1,
   "denton_tx": 1,
@@ -648,8 +676,8 @@
   "fred": 14,
   "harris_tx": 1,
   "maricopa_az": 1,
-  "maricopa_catastro": 8,
-  "maricopa_registro": 16,
+  "maricopa_catastro": 3,
+  "maricopa_registro": 14,
   "pima_az": 1,
   "williamson_tx": 1
  },
@@ -665,7 +693,7 @@
     "sin_titulo_od": 12
    },
    "comprobados": 206,
-   "consultas_hoy": 5,
+   "consultas_hoy": 0,
    "nota": "Anuncios de Arizona con CP 850/852/853 (aprox. Maricopa). 'en_cartera': la parcela es de Opendoor en el catastro. 'comprada_reciente': el catastro aun no lo refleja pero hay una escritura reciente de Opendoor con el dueno anterior. 'sin_titulo_od': Opendoor la anuncia pero los registros no la ponen a su nombre (posible venta por cuenta del propietario, o escritura aun no indexada). Retraso del catastro: ~2 semanas.",
    "pct_titulo_od": 94.1
   },
@@ -688,7 +716,7 @@
    },
    "coste_base": 238,
    "coste_total": 113581930,
-   "dias_en_cartera_mediana": 90.5,
+   "dias_en_cartera_mediana": 91.5,
    "mas_de_90_dias_pct": 50.0,
    "por_entidad": {
     "OPENDOOR LLC": 1,
@@ -703,9 +731,9 @@
    "reparto_dias_en_cartera": {
     "0-30": 38,
     "181-365": 26,
-    "31-60": 62,
+    "31-60": 60,
     "365+": 12,
-    "61-90": 53,
+    "61-90": 55,
     "91-180": 115
    },
    "reparto_precio": {
@@ -716,7 +744,7 @@
     "750k+": 18,
     "<250k": 8
    },
-   "retraso_catastro_dias": 15,
+   "retraso_catastro_dias": 16,
    "sqft_mediana": 1901,
    "ultima_escritura_catastro": "2026-10-02"
   },
@@ -2631,5 +2659,5 @@
    }
   ]
  },
- "obtenido_utc": "2026-10-17T17:35:54+00:00"
+ "obtenido_utc": "2026-10-18T17:35:12+00:00"
 }
