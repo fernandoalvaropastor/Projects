@@ -707,6 +707,10 @@ def main():
                 r["dias"] = r.get("dias", 0) + 1
             if r.get("salida") and not r.get("activa"):
                 r["reapariciones"] = r.get("reapariciones", 0) + 1
+                # v19 (21-oct-2026): guardar CUANDO salio la casa y CUANDO volvio, para restar la vuelta del
+                # dia de salida (regla de Fer). Solo-anadir; no cambia nada de lo que ya se calculaba.
+                r.setdefault("salidas_canceladas", []).append(r["salida"])
+                r.setdefault("vueltas_fechas", []).append(hoy)
             r["activa"] = True
             r["ultima"] = hoy
             r.pop("salida", None)
