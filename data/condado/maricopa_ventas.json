@@ -429,5 +429,70 @@
   "venta_escritura": "20260578545",
   "venta_f": "2026-10-05",
   "venta_p": null
+ },
+ {
+  "apn": "20017381",
+  "ciudad": "Peoria",
+  "compra_f": "2026-06-01",
+  "compra_p": 575000,
+  "cp": "85382",
+  "detectada": "2026-10-23",
+  "dias": 129,
+  "sqft": 2764,
+  "venta_escritura": "20260585789",
+  "venta_f": "2026-10-08",
+  "venta_p": null
+ },
+ {
+  "apn": "20020033",
+  "ciudad": "Surprise",
+  "compra_f": "2026-08-31",
+  "compra_p": 401500,
+  "cp": "85378",
+  "detectada": "2026-10-23",
+  "dias": 39,
+  "sqft": 2156,
+  "venta_escritura": "20260587997",
+  "venta_f": "2026-10-09",
+  "venta_p": null
+ },
+ {
+  "apn": "20910468",
+  "ciudad": "Phoenix",
+  "compra_f": "2026-07-29",
+  "compra_p": 387700,
+  "cp": "85027",
+  "detectada": "2026-10-23",
+  "dias": 69,
+  "sqft": 1591,
+  "venta_escritura": "20260580206",
+  "venta_f": "2026-10-06",
+  "venta_p": null
+ },
+ {
+  "apn": "22073031",
+  "ciudad": "Mesa",
+  "compra_f": "2026-05-28",
+  "compra_p": 407100,
+  "cp": "85208",
+  "detectada": "2026-10-23",
+  "dias": 133,
+  "sqft": 1647,
+  "venta_escritura": "20260584804",
+  "venta_f": "2026-10-08",
+  "venta_p": null
+ },
+ {
+  "apn": "30238598",
+  "ciudad": "Chandler",
+  "compra_f": "2026-07-27",
+  "compra_p": 301000,
+  "cp": "85225",
+  "detectada": "2026-10-23",
+  "dias": 72,
+  "sqft": 1200,
+  "venta_escritura": "20260583229",
+  "venta_f": "2026-10-07",
+  "venta_p": null
  }
 ]
