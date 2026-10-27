@@ -494,5 +494,31 @@
   "venta_escritura": "20260583229",
   "venta_f": "2026-10-07",
   "venta_p": null
+ },
+ {
+  "apn": "10581947",
+  "ciudad": "Phoenix",
+  "compra_f": "2026-06-22",
+  "compra_p": 353200,
+  "cp": "85041",
+  "detectada": "2026-10-27",
+  "dias": 113,
+  "sqft": 1128,
+  "venta_escritura": "20260593586",
+  "venta_f": "2026-10-13",
+  "venta_p": null
+ },
+ {
+  "apn": "31404758",
+  "ciudad": "Queen Creek",
+  "compra_f": "2026-07-17",
+  "compra_p": 465000,
+  "cp": "85142",
+  "detectada": "2026-10-27",
+  "dias": 88,
+  "sqft": 2083,
+  "venta_escritura": "20260592085",
+  "venta_f": "2026-10-13",
+  "venta_p": null
  }
 ]
