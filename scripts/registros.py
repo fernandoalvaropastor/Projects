@@ -567,6 +567,36 @@ def actualizar_cartera(cartera, ventas, hoy):
                 ventas.append(venta)
     return len(vistas), salidas
 
+def rellenar_precios_venta(ventas, hoy, maximo=60, dias_max=120):
+    """Vuelve a mirar el catastro para las ventas emparejadas que aun no tienen precio de venta.
+    El catastro cambia el dueno al registrarse la escritura, pero el precio (SALE_PRICE) puede llegar despues; como la venta se
+    guarda una sola vez, sin esto el precio se queda vacio para siempre. Solo rellena si la escritura del catastro es la misma
+    que la de la venta emparejada. Aditivo: no toca ninguna venta que ya tenga precio."""
+    pendientes = [v for v in ventas if not v.get("venta_p") and v.get("apn") and v.get("venta_escritura")
+                  and (hoy - date.fromisoformat(v.get("detectada") or iso(hoy))).days <= dias_max]
+    pendientes.sort(key=lambda v: v.get("detectada") or "")
+    rellenadas = consultas = 0
+    for v in pendientes:
+        if consultas >= maximo:
+            break
+        consultas += 1
+        try:
+            nueva = parcela_por_apn(v["apn"])
+        except Exception:  # noqa: BLE001
+            continue
+        if not nueva or nueva.get("escritura") != v["venta_escritura"] or not nueva.get("precio"):
+            continue
+        v["venta_p"] = nueva["precio"]
+        v["precio_visto"] = iso(hoy)
+        if not v.get("venta_f"):
+            v["venta_f"] = nueva.get("f_escritura")
+        if v.get("compra_p"):
+            v["margen_bruto"] = v["venta_p"] - v["compra_p"]
+            v["margen_bruto_pct"] = round((v["venta_p"] / v["compra_p"] - 1) * 100, 2)
+        rellenadas += 1
+    return rellenadas, len(pendientes)
+
+
 
 # ----------------------------------------------------------------- Maricopa: anuncios vs titulo
 
@@ -997,6 +1027,12 @@ def main():
         print(f"Maricopa catastro: {casas} parcelas de Opendoor, {salidas} salidas hoy")
     except Exception as e:  # noqa: BLE001
         errores["maricopa_catastro"] = f"{type(e).__name__}: {e}"
+        traceback.print_exc()
+    try:
+        rell, pend = rellenar_precios_venta(ventas, hoy)
+        print(f"Maricopa precios de venta: {rell} rellenados de {pend} sin precio")
+    except Exception as e:  # noqa: BLE001
+        errores["maricopa_precios_venta"] = f"{type(e).__name__}: {e}"
         traceback.print_exc()
     try:
         r = resolver_direccion(docs, hoy)
