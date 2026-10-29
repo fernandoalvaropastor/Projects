@@ -404,10 +404,13 @@
   "cp": "85297",
   "detectada": "2026-10-15",
   "dias": 92,
+  "margen_bruto": 36700,
+  "margen_bruto_pct": 5.17,
+  "precio_visto": "2026-10-29",
   "sqft": 2945,
   "venta_escritura": "20260571623",
   "venta_f": "2026-09-30",
-  "venta_p": null
+  "venta_p": 746000
  },
  {
   "apn": "40051012U",
@@ -620,6 +623,45 @@
   "sqft": 2025,
   "venta_escritura": "20260596380",
   "venta_f": "2026-10-14",
+  "venta_p": null
+ },
+ {
+  "apn": "20307673",
+  "ciudad": "Phoenix",
+  "compra_f": "2026-04-30",
+  "compra_p": 981400,
+  "cp": "85086",
+  "detectada": "2026-10-29",
+  "dias": 167,
+  "sqft": 4453,
+  "venta_escritura": "20260596533",
+  "venta_f": "2026-10-14",
+  "venta_p": null
+ },
+ {
+  "apn": "21459116",
+  "ciudad": "Phoenix",
+  "compra_f": "2026-04-27",
+  "compra_p": 604900,
+  "cp": "85032",
+  "detectada": "2026-10-29",
+  "dias": 171,
+  "sqft": 2015,
+  "venta_escritura": "20260599520",
+  "venta_f": "2026-10-15",
+  "venta_p": null
+ },
+ {
+  "apn": "21532040A",
+  "ciudad": "Scottsdale",
+  "compra_f": "2026-08-18",
+  "compra_p": 269700,
+  "cp": "85254",
+  "detectada": "2026-10-29",
+  "dias": 58,
+  "sqft": 1088,
+  "venta_escritura": "20260597731",
+  "venta_f": "2026-10-15",
   "venta_p": null
  }
 ]
