@@ -1,0 +1,563 @@
+{
+ "altas_por_estado": {
+  "AL": 1,
+  "AZ": 3,
+  "CA": 2,
+  "FL": 9,
+  "GA": 12,
+  "IN": 4,
+  "KS": 2,
+  "MA": 1,
+  "MI": 1,
+  "MO": 1,
+  "NC": 7,
+  "NM": 1,
+  "NV": 1,
+  "OK": 1,
+  "SC": 5,
+  "TN": 3,
+  "TX": 10,
+  "VA": 2,
+  "WA": 1
+ },
+ "aviso": "Conteo propio sobre el sitemap publico de Opendoor. Solo ve lo que esta anunciado a la venta: no ve lo comprado y aun sin listar ni lo que esta bajo contrato. Una casa que desaparece puede haberse vendido, retirado o vuelto a listar con otra direccion: NO afirmar que se ha vendido. La antiguedad se cuenta desde que empezamos a medir, salvo los campos '_real_', que usan la fecha de publicacion de la propia ficha. Las casas de la primera foto no cuentan para edades ni cohortes.",
+ "bajas_por_estado": {
+  "AZ": 4,
+  "CA": 1,
+  "CO": 5,
+  "FL": 5,
+  "GA": 8,
+  "IN": 1,
+  "MI": 2,
+  "MN": 3,
+  "MO": 1,
+  "NC": 3,
+  "NV": 1,
+  "OH": 4,
+  "TN": 2,
+  "TX": 8
+ },
+ "clasificacion": {
+  "a_venta_30d": 1165,
+  "a_venta_hoy": 57,
+  "clasificadas": 5424,
+  "cobertura_pct": 100.0,
+  "dias_proximamente_mediana": 15,
+  "en_venta": 4290,
+  "en_venta_estimadas": 4290,
+  "nota": "'Available soon': casas que ya son de Opendoor (lo dice la propia ficha) pero aun sin precio ni a la venta, normalmente en reforma. Estan en el sitemap. Las estimadas extrapolan la proporcion de las fichas ya leidas al total.",
+  "pendiente": 0,
+  "precio_previsto_mediana": 376438,
+  "proximamente": 1134,
+  "proximamente_estimadas": 1134,
+  "proximamente_pct": 20.9,
+  "proximamente_por_estado": {
+   "AL": 30,
+   "AZ": 48,
+   "CA": 46,
+   "FL": 69,
+   "GA": 146,
+   "IN": 31,
+   "NC": 131,
+   "OH": 39,
+   "SC": 67,
+   "TN": 33,
+   "TX": 167,
+   "VA": 29
+  },
+  "vistas_hoy": 420
+ },
+ "cohortes": [
+  {
+   "n": 434,
+   "s30": null,
+   "s60": null,
+   "s7": 2.5,
+   "s90": null,
+   "semana": "2026-09-28"
+  },
+  {
+   "n": 297,
+   "s30": null,
+   "s60": null,
+   "s7": 1.0,
+   "s90": null,
+   "semana": "2026-10-05"
+  },
+  {
+   "n": 263,
+   "s30": null,
+   "s60": null,
+   "s7": 1.9,
+   "s90": null,
+   "semana": "2026-10-12"
+  },
+  {
+   "n": 249,
+   "s30": null,
+   "s60": null,
+   "s7": null,
+   "s90": null,
+   "semana": "2026-10-19"
+  },
+  {
+   "n": 222,
+   "s30": null,
+   "s60": null,
+   "s7": null,
+   "s90": null,
+   "semana": "2026-10-26"
+  }
+ ],
+ "cp_distintos": 2773,
+ "cp_top_25": {
+  "27587": 12,
+  "27610": 13,
+  "27703": 11,
+  "28025": 12,
+  "28027": 13,
+  "28215": 15,
+  "28269": 12,
+  "28277": 10,
+  "29229": 16,
+  "29485": 16,
+  "29715": 13,
+  "29720": 11,
+  "30024": 10,
+  "30052": 17,
+  "30127": 12,
+  "30135": 12,
+  "30157": 15,
+  "30253": 12,
+  "37042": 12,
+  "76502": 11,
+  "76522": 11,
+  "85143": 11,
+  "85326": 11,
+  "85338": 10,
+  "85396": 12
+ },
+ "dias_hasta_salir_mediana": 24.0,
+ "dias_listadas_mediana": 33.0,
+ "dias_mercado_real_mediana": 63,
+ "edad_listadas": {
+  "0-7": 294,
+  "120+": 0,
+  "31-60": 4174,
+  "61-90": 0,
+  "8-30": 956,
+  "91-120": 0
+ },
+ "edad_real_base": 3848,
+ "edad_real_listadas": {
+  "0-7": 180,
+  "120+": 717,
+  "31-60": 897,
+  "61-90": 778,
+  "8-30": 749,
+  "91-120": 527
+ },
+ "edad_real_listadas_mediana": 64.0,
+ "edad_salidas_30d": {
+  "0-7": 23,
+  "120+": 0,
+  "31-60": 4,
+  "61-90": 0,
+  "8-30": 66,
+  "91-120": 0
+ },
+ "empleo": {
+  "claves": {
+   "escrow_title": 2,
+   "hipoteca": 1,
+   "operaciones_casas": 1,
+   "pricing": 5
+  },
+  "metodo": "enlaces",
+  "por_departamento": {
+   "Finance": 6,
+   "Growth & Marketing": 2,
+   "Legal": 3,
+   "Open Services": 1,
+   "Operations": 1,
+   "Pricing": 2,
+   "Research & Development": 26,
+   "Sales & Partnership": 6
+  },
+  "puestos": [
+   {
+    "d": "Finance",
+    "l": null,
+    "t": "Finance Systems & Automation Specialist Toronto, Canada"
+   },
+   {
+    "d": "Finance",
+    "l": null,
+    "t": "Payroll Systems & Automation Specialist Toronto, Canada"
+   },
+   {
+    "d": "Finance",
+    "l": null,
+    "t": "Payroll Systems & Automation Specialist Phoenix, AZ"
+   },
+   {
+    "d": "Finance",
+    "l": null,
+    "t": "Procurement Specialist – Indirect Spend & Commercial Contracting Miami, FL"
+   },
+   {
+    "d": "Finance",
+    "l": null,
+    "t": "Procurement Specialist – Indirect Spend & Commercial Contracting Toronto, Canada"
+   },
+   {
+    "d": "Finance",
+    "l": null,
+    "t": "Senior Tax Analyst San Francisco, CA"
+   },
+   {
+    "d": "Growth & Marketing",
+    "l": null,
+    "t": "Marketing Manager, Lifecycle Miami, FL · Phoenix, AZ · Toronto, Canada"
+   },
+   {
+    "d": "Growth & Marketing",
+    "l": null,
+    "t": "Sr. Manager, SEO Miami, FL · Tempe, AZ · Toronto, Canada"
+   },
+   {
+    "d": "Legal",
+    "l": null,
+    "t": "Compliance Manager, Mortgage San Francisco, CA · Tempe, AZ"
+   },
+   {
+    "d": "Legal",
+    "l": null,
+    "t": "Counsel, Commercial San Francisco, CA · Tempe, AZ"
+   },
+   {
+    "d": "Legal",
+    "l": null,
+    "t": "Title & Escrow Compliance Lead Miami, FL · Tempe, AZ"
+   },
+   {
+    "d": "Open Services",
+    "l": null,
+    "t": "Title Curative - Consumer Title OS National Remote (United States)"
+   },
+   {
+    "d": "Operations",
+    "l": null,
+    "t": "Homes Project Manager - Central Renovations Team Miami, FL"
+   },
+   {
+    "d": "Pricing",
+    "l": null,
+    "t": "Portfolio Manager Tempe, AZ"
+   },
+   {
+    "d": "Pricing",
+    "l": null,
+    "t": "Pricing Analyst Phoenix, AZ"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Agentic Analytics Engineer Miami, FL"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Agentic Analytics Engineer Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Application Security Engineer Miami, FL"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Application Security Engineer Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Applied Science- Growth Miami, FL · Seattle, WA"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Applied Science- Growth Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Applied Scientist AI/ML Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Applied Scientist AI/ML Miami, FL"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Applied Scientist AI/ML Seattle, WA"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Applied Scientist- Pricing Seattle, WA"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Applied Scientist- Pricing Miami, FL"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Applied Scientist- Pricing Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Data Scientist Miami, FL · Seattle, WA · Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Enterprise IAM Security Engineer Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Enterprise IAM Security Engineer Miami, FL"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Enterprise Security Engineer Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Enterprise Security Engineer Miami, FL"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Information Systems Engineer Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Infrastructure Security Engineer Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Infrastructure Security Engineer Miami, FL"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "IT Support Technician Miami, FL"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "IT Systems Specialist Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Machine Learning Engineer Miami, FL · Seattle, WA · Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Senior Operations Manager, Home Safety Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Software Engineer Toronto, Canada"
+   },
+   {
+    "d": "Research & Development",
+    "l": null,
+    "t": "Software Engineer Miami, FL"
+   },
+   {
+    "d": "Sales & Partnership",
+    "l": null,
+    "t": "Account Executive - Home Sales Advisor Miami, FL"
+   },
+   {
+    "d": "Sales & Partnership",
+    "l": null,
+    "t": "Customer Experience Specialist Tempe, AZ"
+   },
+   {
+    "d": "Sales & Partnership",
+    "l": null,
+    "t": "Listing Partner Miami, FL · Phoenix, AZ"
+   },
+   {
+    "d": "Sales & Partnership",
+    "l": null,
+    "t": "Manager, Listing Partner Tempe, AZ"
+   },
+   {
+    "d": "Sales & Partnership",
+    "l": null,
+    "t": "Sales Support Specialist Tempe, AZ"
+   },
+   {
+    "d": "Sales & Partnership",
+    "l": null,
+    "t": "Transaction Coordinator Tempe, AZ"
+   }
+  ],
+  "total": 47
+ },
+ "estados_distintos": 43,
+ "fecha": "2026-10-30",
+ "fuente": "https://www.opendoor.com/sitemaps/listings.xml",
+ "inicio_medicion": "2026-09-27",
+ "lastmod_hoy": 44,
+ "nuevos": 67,
+ "obtenido_utc": "2026-10-30T19:37:57+00:00",
+ "por_estado": {
+  "AL": 108,
+  "AR": 1,
+  "AZ": 321,
+  "CA": 264,
+  "CO": 168,
+  "CT": 2,
+  "DC": 5,
+  "DE": 12,
+  "FL": 427,
+  "GA": 676,
+  "IA": 1,
+  "ID": 13,
+  "IL": 54,
+  "IN": 147,
+  "KS": 24,
+  "KY": 22,
+  "LA": 25,
+  "MA": 23,
+  "MD": 59,
+  "ME": 1,
+  "MI": 63,
+  "MN": 91,
+  "MO": 96,
+  "MS": 3,
+  "NC": 685,
+  "NH": 2,
+  "NJ": 29,
+  "NM": 34,
+  "NV": 93,
+  "NY": 14,
+  "OH": 155,
+  "OK": 58,
+  "OR": 83,
+  "PA": 33,
+  "SC": 327,
+  "TN": 238,
+  "TX": 827,
+  "UT": 25,
+  "VA": 128,
+  "VT": 1,
+  "WA": 64,
+  "WI": 15,
+  "WV": 7
+ },
+ "precios": {
+  "ano_construccion_mediana": 1996,
+  "bloqueado": false,
+  "cobertura": 4290,
+  "cobertura_pct": 79.1,
+  "codigos_http": {
+   "200": 600
+  },
+  "con_concesion_pct": 29.1,
+  "con_precio_hoy": 179,
+  "con_recorte_pct": 25.9,
+  "concesion_media": 5929,
+  "consultadas_hoy": 600,
+  "errores_hoy": 1,
+  "estado_ficha": {
+   "en_venta": 4290
+  },
+  "habitaciones_mediana": 3.0,
+  "listada_por_top": {},
+  "nota": "Cobertura parcial y creciente: se comprueban hasta 600 fichas de propiedad al dia. El precio de venta que ensena Opendoor ya lleva su descuento estandar del 1% sobre el precio de lista; aqui se deshace ese descuento para dar el precio de lista real. Ese 1% NO es un recorte.",
+  "pago_estimado_medio": 1971,
+  "precio_mediana": 347500,
+  "precio_mediana_por_estado": {
+   "AL": 220500,
+   "AZ": 396000,
+   "CA": 576500,
+   "CO": 487000,
+   "FL": 320000,
+   "GA": 344000,
+   "IL": 292000,
+   "IN": 255500,
+   "KS": 296000,
+   "KY": 333000,
+   "LA": 210000,
+   "MA": 594000,
+   "MD": 430000,
+   "MI": 246500,
+   "MN": 340000,
+   "MO": 285000,
+   "NC": 323500,
+   "NJ": 587000,
+   "NM": 341500,
+   "NV": 430500,
+   "OH": 302500,
+   "OK": 242000,
+   "OR": 459000,
+   "PA": 255000,
+   "SC": 285000,
+   "TN": 350000,
+   "TX": 310000,
+   "UT": 514000,
+   "VA": 432000,
+   "WA": 600000
+  },
+  "precio_medio": 405679,
+  "precio_por_sqft_medio": 206,
+  "recorte_medio_hoy_pct": 2.68,
+  "recortes_hoy": 75,
+  "reparto_precio": {
+   "200-300k": 1178,
+   "300-400k": 1169,
+   "400-500k": 649,
+   "500-750k": 661,
+   "750k+": 273,
+   "<200k": 360
+  },
+  "retirada_previa_base": 3903,
+  "retirada_previa_pct": 20.7,
+  "sqft_mediana": 1818,
+  "valor_listado_estimado": 2200404274,
+  "valor_listado_muestra": 1740364000
+ },
+ "primera_pasada": false,
+ "reapariciones": 12,
+ "retencion_precio_hoy": 100.0,
+ "retirados": 48,
+ "salidas_30d": 978,
+ "salidas_7d": 278,
+ "total": 5424,
+ "urls_sin_patron": 165,
+ "valor_salido_30d": 308487000,
+ "valor_salido_30d_base": 852,
+ "valor_salido_hoy": 15829000,
+ "valor_salido_hoy_base": 47,
+ "version": 3
+}
